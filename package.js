@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-	api.imply('templating');
+	api.imply('templating@1.0.8');
   api.addFiles('babylon.1.14-RC.js','client');
   api.export('BABYLON','client');
 });
