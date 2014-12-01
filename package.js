@@ -7,5 +7,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.addFiles('babylon.js','client');
+  api.export('BABYLON', 'client');
 });
 

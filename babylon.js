@@ -1,4 +1,4 @@
-var BABYLON;
+BABYLON = {};
 (function (BABYLON) {
     var Color3 = (function () {
         function Color3(r, g, b) {
@@ -2167,7 +2167,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.math.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Database = (function () {
         function Database(urlToScene, callbackManifestChecked) {
@@ -2700,7 +2699,6 @@ var BABYLON;
 * By Vincent Thibault
 * @blog http://blog.robrowser.com/javascript-tga-loader.html
 */
-var BABYLON;
 (function (BABYLON) {
     (function (Internals) {
         var TGATools = (function () {
@@ -3008,7 +3006,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.tools.tga.js.map
 
-var BABYLON;
 (function (BABYLON) {
     (function (Internals) {
         // Based on demo done by Brandon Jones - http://media.tojicode.com/webgl-samples/dds.html
@@ -3221,7 +3218,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.tools.dds.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var SmartArray = (function () {
         function SmartArray(capacity) {
@@ -3304,7 +3300,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.smartArray.js.map
 
-var BABYLON;
 (function (BABYLON) {
     // Screenshots
     var screenshotCanvas;
@@ -3987,7 +3982,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.tools.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var _DepthCullingState = (function () {
         function _DepthCullingState() {
@@ -5836,7 +5830,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.engine.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Node = (function () {
         function Node(name, scene) {
@@ -5987,7 +5980,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.node.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var FilesInput = (function () {
         /// Register to core BabylonJS object: engine, scene, rendering canvas, callback function when the scene will be loaded,
@@ -6126,7 +6118,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.filesInput.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var IntersectionInfo = (function () {
         function IntersectionInfo(bu, bv, distance) {
@@ -6193,7 +6184,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.pickingInfo.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var BoundingSphere = (function () {
         function BoundingSphere(minimum, maximum) {
@@ -6256,7 +6246,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.boundingSphere.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var BoundingBox = (function () {
         function BoundingBox(minimum, maximum) {
@@ -6416,7 +6405,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.boundingBox.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var computeBoxExtents = function (axis, box) {
         var p = BABYLON.Vector3.Dot(box.center, axis);
@@ -6548,7 +6536,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var AbstractMesh = (function (_super) {
         __extends(AbstractMesh, _super);
@@ -7350,7 +7337,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Light = (function (_super) {
         __extends(Light, _super);
@@ -7434,7 +7420,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var PointLight = (function (_super) {
         __extends(PointLight, _super);
@@ -7482,7 +7467,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var SpotLight = (function (_super) {
         __extends(SpotLight, _super);
@@ -7545,7 +7529,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var HemisphericLight = (function (_super) {
         __extends(HemisphericLight, _super);
@@ -7588,7 +7571,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var DirectionalLight = (function (_super) {
         __extends(DirectionalLight, _super);
@@ -7646,7 +7628,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.directionalLight.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var ShadowGenerator = (function () {
         function ShadowGenerator(mapSize, light) {
@@ -7914,7 +7895,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.shadowGenerator.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var intersectBoxAASphere = function (boxMin, boxMax, sphereCenter, sphereRadius) {
         if (boxMin.x > sphereCenter.x + sphereRadius)
@@ -8260,7 +8240,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Camera = (function (_super) {
         __extends(Camera, _super);
@@ -8564,7 +8543,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var TargetCamera = (function (_super) {
         __extends(TargetCamera, _super);
@@ -8768,7 +8746,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var FreeCamera = (function (_super) {
         __extends(FreeCamera, _super);
@@ -9009,7 +8986,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var FollowCamera = (function (_super) {
         __extends(FollowCamera, _super);
@@ -9072,7 +9048,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     // We're mainly based on the logic defined into the FreeCamera code
     var TouchCamera = (function (_super) {
@@ -9213,7 +9188,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var eventPrefix = BABYLON.Tools.GetPointerPrefix();
 
@@ -9745,7 +9719,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     // We're mainly based on the logic defined into the FreeCamera code
     var DeviceOrientationCamera = (function (_super) {
@@ -9823,7 +9796,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.deviceOrientationCamera.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var RenderingManager = (function () {
         function RenderingManager(scene) {
@@ -9929,7 +9901,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.renderingManager.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var RenderingGroup = (function () {
         function RenderingGroup(index, scene) {
@@ -10034,7 +10005,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.renderingGroup.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Scene = (function () {
         // Constructor
@@ -11458,7 +11428,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.scene.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var VertexBuffer = (function () {
         function VertexBuffer(engine, data, kind, updatable, postponeInternalCreation) {
@@ -11639,7 +11608,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var InstancedMesh = (function (_super) {
         __extends(InstancedMesh, _super);
@@ -11810,7 +11778,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var _InstancesBatch = (function () {
         function _InstancesBatch() {
@@ -12840,7 +12807,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.mesh.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var SubMesh = (function () {
         function SubMesh(materialIndex, verticesStart, verticesCount, indexStart, indexCount, mesh, renderingMesh, createBoundingBox) {
@@ -13016,7 +12982,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.subMesh.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var BaseTexture = (function () {
         function BaseTexture(scene) {
@@ -13156,7 +13121,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Texture = (function (_super) {
         __extends(Texture, _super);
@@ -13368,7 +13332,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var CubeTexture = (function (_super) {
         __extends(CubeTexture, _super);
@@ -13443,7 +13406,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var RenderTargetTexture = (function (_super) {
         __extends(RenderTargetTexture, _super);
@@ -13613,7 +13575,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var MirrorTexture = (function (_super) {
         __extends(MirrorTexture, _super);
@@ -13670,7 +13631,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var DynamicTexture = (function (_super) {
         __extends(DynamicTexture, _super);
@@ -13757,7 +13717,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var VideoTexture = (function (_super) {
         __extends(VideoTexture, _super);
@@ -13820,7 +13779,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.videoTexture.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var EffectFallbacks = (function () {
         function EffectFallbacks() {
@@ -14228,7 +14186,6 @@ var BABYLON;
 //# sourceMappingURL=babylon.effect.js.map
 
 BABYLON.Effect.ShadersStore={"anaglyphPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\nuniform sampler2D leftSampler;\n\nvoid main(void)\n{\n    vec4 leftFrag = texture2D(leftSampler, vUV);\n    leftFrag = vec4(1.0, leftFrag.g, leftFrag.b, 1.0);\n\n\tvec4 rightFrag = texture2D(textureSampler, vUV);\n    rightFrag = vec4(rightFrag.r, 1.0, 1.0, 1.0);\n\n    gl_FragColor = vec4(rightFrag.rgb * leftFrag.rgb, 1.0);\n}","blackAndWhitePixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\nvoid main(void) \n{\n\tfloat luminance = dot(texture2D(textureSampler, vUV).rgb, vec3(0.3, 0.59, 0.11));\n\tgl_FragColor = vec4(luminance, luminance, luminance, 1.0);\n}","blurPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\n// Parameters\nuniform vec2 screenSize;\nuniform vec2 direction;\nuniform float blurWidth;\n\nvoid main(void)\n{\n\tfloat weights[7];\n\tweights[0] = 0.05;\n\tweights[1] = 0.1;\n\tweights[2] = 0.2;\n\tweights[3] = 0.3;\n\tweights[4] = 0.2;\n\tweights[5] = 0.1;\n\tweights[6] = 0.05;\n\n\tvec2 texelSize = vec2(1.0 / screenSize.x, 1.0 / screenSize.y);\n\tvec2 texelStep = texelSize * direction * blurWidth;\n\tvec2 start = vUV - 3.0 * texelStep;\n\n\tvec4 baseColor = vec4(0., 0., 0., 0.);\n\tvec2 texelOffset = vec2(0., 0.);\n\n\tfor (int i = 0; i < 7; i++)\n\t{\n\t\tbaseColor += texture2D(textureSampler, start + texelOffset) * weights[i];\n\t\ttexelOffset += texelStep;\n\t}\n\n\tgl_FragColor = baseColor;\n}","colorPixelShader":"precision highp float;\n\nuniform vec4 color;\n\nvoid main(void) {\n\tgl_FragColor = color;\n}","colorVertexShader":"precision highp float;\n\n// Attributes\nattribute vec3 position;\n\n// Uniforms\nuniform mat4 worldViewProjection;\n\nvoid main(void) {\n\tgl_Position = worldViewProjection * vec4(position, 1.0);\n}","convolutionPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\nuniform vec2 screenSize;\nuniform float kernel[9];\n\nvoid main(void)\n{\n\tvec2 onePixel = vec2(1.0, 1.0) / screenSize;\n\tvec4 colorSum =\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(-1, -1)) * kernel[0] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(0, -1)) * kernel[1] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(1, -1)) * kernel[2] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(-1, 0)) * kernel[3] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(0, 0)) * kernel[4] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(1, 0)) * kernel[5] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(-1, 1)) * kernel[6] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(0, 1)) * kernel[7] +\n\t\ttexture2D(textureSampler, vUV + onePixel * vec2(1, 1)) * kernel[8];\n\n\tfloat kernelWeight =\n\t\tkernel[0] +\n\t\tkernel[1] +\n\t\tkernel[2] +\n\t\tkernel[3] +\n\t\tkernel[4] +\n\t\tkernel[5] +\n\t\tkernel[6] +\n\t\tkernel[7] +\n\t\tkernel[8];\n\n\tif (kernelWeight <= 0.0) {\n\t\tkernelWeight = 1.0;\n\t}\n\n\tgl_FragColor = vec4((colorSum / kernelWeight).rgb, 1);\n}","defaultPixelShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n#define MAP_EXPLICIT\t0.\r\n#define MAP_SPHERICAL\t1.\r\n#define MAP_PLANAR\t\t2.\r\n#define MAP_CUBIC\t\t3.\r\n#define MAP_PROJECTION\t4.\r\n#define MAP_SKYBOX\t\t5.\r\n\r\n// Constants\r\nuniform vec3 vEyePosition;\r\nuniform vec3 vAmbientColor;\r\nuniform vec4 vDiffuseColor;\r\nuniform vec4 vSpecularColor;\r\nuniform vec3 vEmissiveColor;\r\n\r\n// Input\r\nvarying vec3 vPositionW;\r\nvarying vec3 vNormalW;\r\n\r\n#ifdef VERTEXCOLOR\r\nvarying vec3 vColor;\r\n#endif\r\n\r\n// Lights\r\n#ifdef LIGHT0\r\nuniform vec4 vLightData0;\r\nuniform vec4 vLightDiffuse0;\r\nuniform vec3 vLightSpecular0;\r\n#ifdef SHADOW0\r\nvarying vec4 vPositionFromLight0;\r\nuniform sampler2D shadowSampler0;\r\nuniform float darkness0;\r\n#endif\r\n#ifdef SPOTLIGHT0\r\nuniform vec4 vLightDirection0;\r\n#endif\r\n#ifdef HEMILIGHT0\r\nuniform vec3 vLightGround0;\r\n#endif\r\n#endif\r\n\r\n#ifdef LIGHT1\r\nuniform vec4 vLightData1;\r\nuniform vec4 vLightDiffuse1;\r\nuniform vec3 vLightSpecular1;\r\n#ifdef SHADOW1\r\nvarying vec4 vPositionFromLight1;\r\nuniform sampler2D shadowSampler1;\r\nuniform float darkness1;\r\n#endif\r\n#ifdef SPOTLIGHT1\r\nuniform vec4 vLightDirection1;\r\n#endif\r\n#ifdef HEMILIGHT1\r\nuniform vec3 vLightGround1;\r\n#endif\r\n#endif\r\n\r\n#ifdef LIGHT2\r\nuniform vec4 vLightData2;\r\nuniform vec4 vLightDiffuse2;\r\nuniform vec3 vLightSpecular2;\r\n#ifdef SHADOW2\r\nvarying vec4 vPositionFromLight2;\r\nuniform sampler2D shadowSampler2;\r\nuniform float darkness2;\r\n#endif\r\n#ifdef SPOTLIGHT2\r\nuniform vec4 vLightDirection2;\r\n#endif\r\n#ifdef HEMILIGHT2\r\nuniform vec3 vLightGround2;\r\n#endif\r\n#endif\r\n\r\n#ifdef LIGHT3\r\nuniform vec4 vLightData3;\r\nuniform vec4 vLightDiffuse3;\r\nuniform vec3 vLightSpecular3;\r\n#ifdef SHADOW3\r\nvarying vec4 vPositionFromLight3;\r\nuniform sampler2D shadowSampler3;\r\nuniform float darkness3;\r\n#endif\r\n#ifdef SPOTLIGHT3\r\nuniform vec4 vLightDirection3;\r\n#endif\r\n#ifdef HEMILIGHT3\r\nuniform vec3 vLightGround3;\r\n#endif\r\n#endif\r\n\r\n// Samplers\r\n#ifdef DIFFUSE\r\nvarying vec2 vDiffuseUV;\r\nuniform sampler2D diffuseSampler;\r\nuniform vec2 vDiffuseInfos;\r\n#endif\r\n\r\n#ifdef AMBIENT\r\nvarying vec2 vAmbientUV;\r\nuniform sampler2D ambientSampler;\r\nuniform vec2 vAmbientInfos;\r\n#endif\r\n\r\n#ifdef OPACITY\t\r\nvarying vec2 vOpacityUV;\r\nuniform sampler2D opacitySampler;\r\nuniform vec2 vOpacityInfos;\r\n#endif\r\n\r\n#ifdef EMISSIVE\r\nvarying vec2 vEmissiveUV;\r\nuniform vec2 vEmissiveInfos;\r\nuniform sampler2D emissiveSampler;\r\n#endif\r\n\r\n#ifdef SPECULAR\r\nvarying vec2 vSpecularUV;\r\nuniform vec2 vSpecularInfos;\r\nuniform sampler2D specularSampler;\r\n#endif\r\n\r\n// Fresnel\r\n#ifdef FRESNEL\r\nfloat computeFresnelTerm(vec3 viewDirection, vec3 worldNormal, float bias, float power)\r\n{\r\n\tfloat fresnelTerm = pow(bias + abs(dot(viewDirection, worldNormal)), power);\r\n\treturn clamp(fresnelTerm, 0., 1.);\r\n}\r\n#endif\r\n\r\n#ifdef DIFFUSEFRESNEL\r\nuniform vec4 diffuseLeftColor;\r\nuniform vec4 diffuseRightColor;\r\n#endif\r\n\r\n#ifdef OPACITYFRESNEL\r\nuniform vec4 opacityParts;\r\n#endif\r\n\r\n#ifdef REFLECTIONFRESNEL\r\nuniform vec4 reflectionLeftColor;\r\nuniform vec4 reflectionRightColor;\r\n#endif\r\n\r\n#ifdef EMISSIVEFRESNEL\r\nuniform vec4 emissiveLeftColor;\r\nuniform vec4 emissiveRightColor;\r\n#endif\r\n\r\n// Reflection\r\n#ifdef REFLECTION\r\nvarying vec3 vPositionUVW;\r\nuniform samplerCube reflectionCubeSampler;\r\nuniform sampler2D reflection2DSampler;\r\nuniform vec3 vReflectionInfos;\r\nuniform mat4 reflectionMatrix;\r\nuniform mat4 view;\r\n\r\nvec3 computeReflectionCoords(float mode, vec4 worldPos, vec3 worldNormal)\r\n{\r\n\tif (mode == MAP_SPHERICAL)\r\n\t{\r\n\t\tvec3 coords = vec3(view * vec4(worldNormal, 0.0));\r\n\r\n\t\treturn vec3(reflectionMatrix * vec4(coords, 1.0));\r\n\t}\r\n\telse if (mode == MAP_PLANAR)\r\n\t{\r\n\t\tvec3 viewDir = worldPos.xyz - vEyePosition;\r\n\t\tvec3 coords = normalize(reflect(viewDir, worldNormal));\r\n\r\n\t\treturn vec3(reflectionMatrix * vec4(coords, 1));\r\n\t}\r\n\telse if (mode == MAP_CUBIC)\r\n\t{\r\n\t\tvec3 viewDir = worldPos.xyz - vEyePosition;\r\n\t\tvec3 coords = reflect(viewDir, worldNormal);\r\n\r\n\t\treturn vec3(reflectionMatrix * vec4(coords, 0));\r\n\t}\r\n\telse if (mode == MAP_PROJECTION)\r\n\t{\r\n\t\treturn vec3(reflectionMatrix * (view * worldPos));\r\n\t}\r\n\telse if (mode == MAP_SKYBOX)\r\n\t{\r\n\t\treturn vPositionUVW;\r\n\t}\r\n\r\n\treturn vec3(0, 0, 0);\r\n}\r\n#endif\r\n\r\n// Shadows\r\n#ifdef SHADOWS\r\n\r\nfloat unpack(vec4 color)\r\n{\r\n\tconst vec4 bitShift = vec4(1. / (255. * 255. * 255.), 1. / (255. * 255.), 1. / 255., 1.);\r\n\treturn dot(color, bitShift);\r\n}\r\n\r\nfloat unpackHalf(vec2 color)\r\n{\r\n\treturn color.x + (color.y / 255.0);\r\n}\r\n\r\nfloat computeShadow(vec4 vPositionFromLight, sampler2D shadowSampler, float darkness)\r\n{\r\n\tvec3 depth = vPositionFromLight.xyz / vPositionFromLight.w;\r\n\tvec2 uv = 0.5 * depth.xy + vec2(0.5, 0.5);\r\n\r\n\tif (uv.x < 0. || uv.x > 1.0 || uv.y < 0. || uv.y > 1.0)\r\n\t{\r\n\t\treturn 1.0;\r\n\t}\r\n\r\n\tfloat shadow = unpack(texture2D(shadowSampler, uv));\r\n\r\n\tif (depth.z > shadow)\r\n\t{\r\n\t\treturn darkness;\r\n\t}\r\n\treturn 1.;\r\n}\r\n\r\nfloat computeShadowWithPCF(vec4 vPositionFromLight, sampler2D shadowSampler)\r\n{\r\n\tvec3 depth = vPositionFromLight.xyz / vPositionFromLight.w;\r\n\tvec2 uv = 0.5 * depth.xy + vec2(0.5, 0.5);\r\n\r\n\tif (uv.x < 0. || uv.x > 1.0 || uv.y < 0. || uv.y > 1.0)\r\n\t{\r\n\t\treturn 1.0;\r\n\t}\r\n\r\n\tfloat visibility = 1.;\r\n\r\n\tvec2 poissonDisk[4];\r\n\tpoissonDisk[0] = vec2(-0.94201624, -0.39906216);\r\n\tpoissonDisk[1] = vec2(0.94558609, -0.76890725);\r\n\tpoissonDisk[2] = vec2(-0.094184101, -0.92938870);\r\n\tpoissonDisk[3] = vec2(0.34495938, 0.29387760);\r\n\r\n\t// Poisson Sampling\r\n\tfor (int i = 0; i<4; i++){\r\n\t\tif (unpack(texture2D(shadowSampler, uv + poissonDisk[i] / 1500.0))  <  depth.z){\r\n\t\t\tvisibility -= 0.2;\r\n\t\t}\r\n\t}\r\n\treturn visibility;\r\n}\r\n\r\n// Thanks to http://devmaster.net/\r\nfloat ChebychevInequality(vec2 moments, float t)\r\n{\r\n\tif (t <= moments.x)\r\n\t{\r\n\t\treturn 1.0;\r\n\t}\r\n\r\n\tfloat variance = moments.y - (moments.x * moments.x);\r\n\tvariance = max(variance, 0.);\r\n\r\n\tfloat d = t - moments.x;\r\n\treturn variance / (variance + d * d);\r\n}\r\n\r\nfloat computeShadowWithVSM(vec4 vPositionFromLight, sampler2D shadowSampler)\r\n{\r\n\tvec3 depth = vPositionFromLight.xyz / vPositionFromLight.w;\r\n\tvec2 uv = 0.5 * depth.xy + vec2(0.5, 0.5);\r\n\r\n\tif (uv.x < 0. || uv.x > 1.0 || uv.y < 0. || uv.y > 1.0)\r\n\t{\r\n\t\treturn 1.0;\r\n\t}\r\n\r\n\tvec4 texel = texture2D(shadowSampler, uv);\r\n\r\n\tvec2 moments = vec2(unpackHalf(texel.xy), unpackHalf(texel.zw));\r\n\treturn clamp(1.3 - ChebychevInequality(moments, depth.z), 0., 1.0);\r\n}\r\n#endif\r\n\r\n// Bump\r\n#ifdef BUMP\r\n#extension GL_OES_standard_derivatives : enable\r\nvarying vec2 vBumpUV;\r\nuniform vec2 vBumpInfos;\r\nuniform sampler2D bumpSampler;\r\n\r\n// Thanks to http://www.thetenthplanet.de/archives/1180\r\nmat3 cotangent_frame(vec3 normal, vec3 p, vec2 uv)\r\n{\r\n\t// get edge vectors of the pixel triangle\r\n\tvec3 dp1 = dFdx(p);\r\n\tvec3 dp2 = dFdy(p);\r\n\tvec2 duv1 = dFdx(uv);\r\n\tvec2 duv2 = dFdy(uv);\r\n\r\n\t// solve the linear system\r\n\tvec3 dp2perp = cross(dp2, normal);\r\n\tvec3 dp1perp = cross(normal, dp1);\r\n\tvec3 tangent = dp2perp * duv1.x + dp1perp * duv2.x;\r\n\tvec3 binormal = dp2perp * duv1.y + dp1perp * duv2.y;\r\n\r\n\t// construct a scale-invariant frame \r\n\tfloat invmax = inversesqrt(max(dot(tangent, tangent), dot(binormal, binormal)));\r\n\treturn mat3(tangent * invmax, binormal * invmax, normal);\r\n}\r\n\r\nvec3 perturbNormal(vec3 viewDir)\r\n{\r\n\tvec3 map = texture2D(bumpSampler, vBumpUV).xyz * vBumpInfos.y;\r\n\tmap = map * 255. / 127. - 128. / 127.;\r\n\tmat3 TBN = cotangent_frame(vNormalW, -viewDir, vBumpUV);\r\n\treturn normalize(TBN * map);\r\n}\r\n#endif\r\n\r\n#ifdef CLIPPLANE\r\nvarying float fClipDistance;\r\n#endif\r\n\r\n// Fog\r\n#ifdef FOG\r\n\r\n#define FOGMODE_NONE    0.\r\n#define FOGMODE_EXP     1.\r\n#define FOGMODE_EXP2    2.\r\n#define FOGMODE_LINEAR  3.\r\n#define E 2.71828\r\n\r\nuniform vec4 vFogInfos;\r\nuniform vec3 vFogColor;\r\nvarying float fFogDistance;\r\n\r\nfloat CalcFogFactor()\r\n{\r\n\tfloat fogCoeff = 1.0;\r\n\tfloat fogStart = vFogInfos.y;\r\n\tfloat fogEnd = vFogInfos.z;\r\n\tfloat fogDensity = vFogInfos.w;\r\n\r\n\tif (FOGMODE_LINEAR == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = (fogEnd - fFogDistance) / (fogEnd - fogStart);\r\n\t}\r\n\telse if (FOGMODE_EXP == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fogDensity);\r\n\t}\r\n\telse if (FOGMODE_EXP2 == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fFogDistance * fogDensity * fogDensity);\r\n\t}\r\n\r\n\treturn clamp(fogCoeff, 0.0, 1.0);\r\n}\r\n#endif\r\n\r\n// Light Computing\r\nstruct lightingInfo\r\n{\r\n\tvec3 diffuse;\r\n\tvec3 specular;\r\n};\r\n\r\nlightingInfo computeLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec3 diffuseColor, vec3 specularColor, float range) {\r\n\tlightingInfo result;\r\n\r\n\tvec3 lightVectorW;\r\n\tfloat attenuation = 1.0;\r\n\tif (lightData.w == 0.)\r\n\t{\r\n\t\tvec3 direction = lightData.xyz - vPositionW;\r\n\r\n\t\tattenuation = max(0., 1.0 - length(direction) / range);\r\n\t\tlightVectorW = normalize(direction);\r\n\t}\r\n\telse\r\n\t{\r\n\t\tlightVectorW = normalize(-lightData.xyz);\r\n\t}\r\n\r\n\t// diffuse\r\n\tfloat ndl = max(0., dot(vNormal, lightVectorW));\r\n\r\n\t// Specular\r\n\tvec3 angleW = normalize(viewDirectionW + lightVectorW);\r\n\tfloat specComp = max(0., dot(vNormal, angleW));\r\n\tspecComp = pow(specComp, max(1., vSpecularColor.a));\r\n\r\n\tresult.diffuse = ndl * diffuseColor * attenuation;\r\n\tresult.specular = specComp * specularColor * attenuation;\r\n\r\n\treturn result;\r\n}\r\n\r\nlightingInfo computeSpotLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec4 lightDirection, vec3 diffuseColor, vec3 specularColor, float range) {\r\n\tlightingInfo result;\r\n\r\n\tvec3 direction = lightData.xyz - vPositionW;\r\n\tvec3 lightVectorW = normalize(direction);\r\n\tfloat attenuation = max(0., 1.0 - length(direction) / range);\r\n\r\n\t// diffuse\r\n\tfloat cosAngle = max(0., dot(-lightDirection.xyz, lightVectorW));\r\n\tfloat spotAtten = 0.0;\r\n\r\n\tif (cosAngle >= lightDirection.w)\r\n\t{\r\n\t\tcosAngle = max(0., pow(cosAngle, lightData.w));\r\n\t\tspotAtten = max(0., (cosAngle - lightDirection.w) / (1. - cosAngle));\r\n\r\n\t\t// Diffuse\r\n\t\tfloat ndl = max(0., dot(vNormal, -lightDirection.xyz));\r\n\r\n\t\t// Specular\r\n\t\tvec3 angleW = normalize(viewDirectionW - lightDirection.xyz);\r\n\t\tfloat specComp = max(0., dot(vNormal, angleW));\r\n\t\tspecComp = pow(specComp, vSpecularColor.a);\r\n\r\n\t\tresult.diffuse = ndl * spotAtten * diffuseColor * attenuation;\r\n\t\tresult.specular = specComp * specularColor * spotAtten * attenuation;\r\n\r\n\t\treturn result;\r\n\t}\r\n\r\n\tresult.diffuse = vec3(0.);\r\n\tresult.specular = vec3(0.);\r\n\r\n\treturn result;\r\n}\r\n\r\nlightingInfo computeHemisphericLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec3 diffuseColor, vec3 specularColor, vec3 groundColor) {\r\n\tlightingInfo result;\r\n\r\n\t// Diffuse\r\n\tfloat ndl = dot(vNormal, lightData.xyz) * 0.5 + 0.5;\r\n\r\n\t// Specular\r\n\tvec3 angleW = normalize(viewDirectionW + lightData.xyz);\r\n\tfloat specComp = max(0., dot(vNormal, angleW));\r\n\tspecComp = pow(specComp, vSpecularColor.a);\r\n\r\n\tresult.diffuse = mix(groundColor, diffuseColor, ndl);\r\n\tresult.specular = specComp * specularColor;\r\n\r\n\treturn result;\r\n}\r\n\r\nvoid main(void) {\r\n\t// Clip plane\r\n#ifdef CLIPPLANE\r\n\tif (fClipDistance > 0.0)\r\n\t\tdiscard;\r\n#endif\r\n\r\n\tvec3 viewDirectionW = normalize(vEyePosition - vPositionW);\r\n\r\n\t// Base color\r\n\tvec4 baseColor = vec4(1., 1., 1., 1.);\r\n\tvec3 diffuseColor = vDiffuseColor.rgb;\r\n\r\n\t// Alpha\r\n\tfloat alpha = vDiffuseColor.a;\r\n\r\n#ifdef VERTEXCOLOR\r\n\tdiffuseColor *= vColor;\r\n#endif\r\n\r\n#ifdef DIFFUSE\r\n\tbaseColor = texture2D(diffuseSampler, vDiffuseUV);\r\n\r\n#ifdef ALPHATEST\r\n\tif (baseColor.a < 0.4)\r\n\t\tdiscard;\r\n#endif\r\n\r\n#ifdef ALPHAFROMDIFFUSE\r\n\talpha *= baseColor.a;\r\n#endif\r\n\r\n\tbaseColor.rgb *= vDiffuseInfos.y;\r\n#endif\r\n\r\n\t// Bump\r\n\tvec3 normalW = normalize(vNormalW);\r\n\r\n#ifdef BUMP\r\n\tnormalW = perturbNormal(viewDirectionW);\r\n#endif\r\n\r\n\t// Ambient color\r\n\tvec3 baseAmbientColor = vec3(1., 1., 1.);\r\n\r\n#ifdef AMBIENT\r\n\tbaseAmbientColor = texture2D(ambientSampler, vAmbientUV).rgb * vAmbientInfos.y;\r\n#endif\r\n\r\n\t// Lighting\r\n\tvec3 diffuseBase = vec3(0., 0., 0.);\r\n\tvec3 specularBase = vec3(0., 0., 0.);\r\n\tfloat shadow = 1.;\r\n\r\n#ifdef LIGHT0\r\n#ifdef SPOTLIGHT0\r\n\tlightingInfo info = computeSpotLighting(viewDirectionW, normalW, vLightData0, vLightDirection0, vLightDiffuse0.rgb, vLightSpecular0, vLightDiffuse0.a);\r\n#endif\r\n#ifdef HEMILIGHT0\r\n\tlightingInfo info = computeHemisphericLighting(viewDirectionW, normalW, vLightData0, vLightDiffuse0.rgb, vLightSpecular0, vLightGround0);\r\n#endif\r\n#ifdef POINTDIRLIGHT0\r\n\tlightingInfo info = computeLighting(viewDirectionW, normalW, vLightData0, vLightDiffuse0.rgb, vLightSpecular0, vLightDiffuse0.a);\r\n#endif\r\n#ifdef SHADOW0\r\n#ifdef SHADOWVSM0\r\n\tshadow = computeShadowWithVSM(vPositionFromLight0, shadowSampler0);\r\n#else\r\n\t#ifdef SHADOWPCF0\r\n\t\tshadow = computeShadowWithPCF(vPositionFromLight0, shadowSampler0);\r\n\t#else\r\n\t\tshadow = computeShadow(vPositionFromLight0, shadowSampler0, darkness0);\r\n\t#endif\r\n#endif\r\n#else\r\n\tshadow = 1.;\r\n#endif\r\n\tdiffuseBase += info.diffuse * shadow;\r\n\tspecularBase += info.specular * shadow;\r\n#endif\r\n\r\n#ifdef LIGHT1\r\n#ifdef SPOTLIGHT1\r\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData1, vLightDirection1, vLightDiffuse1.rgb, vLightSpecular1, vLightDiffuse1.a);\r\n#endif\r\n#ifdef HEMILIGHT1\r\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData1, vLightDiffuse1.rgb, vLightSpecular1, vLightGround1);\r\n#endif\r\n#ifdef POINTDIRLIGHT1\r\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData1, vLightDiffuse1.rgb, vLightSpecular1, vLightDiffuse1.a);\r\n#endif\r\n#ifdef SHADOW1\r\n#ifdef SHADOWVSM1\r\n\tshadow = computeShadowWithVSM(vPositionFromLight1, shadowSampler1);\r\n#else\r\n\t#ifdef SHADOWPCF1\r\n\t\tshadow = computeShadowWithPCF(vPositionFromLight1, shadowSampler1);\r\n\t#else\r\n\t\tshadow = computeShadow(vPositionFromLight1, shadowSampler1, darkness1);\r\n\t#endif\r\n#endif\r\n#else\r\n\tshadow = 1.;\r\n#endif\r\n\tdiffuseBase += info.diffuse * shadow;\r\n\tspecularBase += info.specular * shadow;\r\n#endif\r\n\r\n#ifdef LIGHT2\r\n#ifdef SPOTLIGHT2\r\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData2, vLightDirection2, vLightDiffuse2.rgb, vLightSpecular2, vLightDiffuse2.a);\r\n#endif\r\n#ifdef HEMILIGHT2\r\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData2, vLightDiffuse2.rgb, vLightSpecular2, vLightGround2);\r\n#endif\r\n#ifdef POINTDIRLIGHT2\r\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData2, vLightDiffuse2.rgb, vLightSpecular2, vLightDiffuse2.a);\r\n#endif\r\n#ifdef SHADOW2\r\n#ifdef SHADOWVSM2\r\n\tshadow = computeShadowWithVSM(vPositionFromLight2, shadowSampler2);\r\n#else\r\n\t#ifdef SHADOWPCF2\r\n\t\tshadow = computeShadowWithPCF(vPositionFromLight2, shadowSampler2);\r\n\t#else\r\n\t\tshadow = computeShadow(vPositionFromLight2, shadowSampler2, darkness2);\r\n\t#endif\t\r\n#endif\t\r\n#else\r\n\tshadow = 1.;\r\n#endif\r\n\tdiffuseBase += info.diffuse * shadow;\r\n\tspecularBase += info.specular * shadow;\r\n#endif\r\n\r\n#ifdef LIGHT3\r\n#ifdef SPOTLIGHT3\r\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData3, vLightDirection3, vLightDiffuse3.rgb, vLightSpecular3, vLightDiffuse3.a);\r\n#endif\r\n#ifdef HEMILIGHT3\r\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData3, vLightDiffuse3.rgb, vLightSpecular3, vLightGround3);\r\n#endif\r\n#ifdef POINTDIRLIGHT3\r\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData3, vLightDiffuse3.rgb, vLightSpecular3, vLightDiffuse3.a);\r\n#endif\r\n#ifdef SHADOW3\r\n#ifdef SHADOWVSM3\r\n\tshadow = computeShadowWithVSM(vPositionFromLight3, shadowSampler3);\r\n#else\r\n\t#ifdef SHADOWPCF3\r\n\t\tshadow = computeShadowWithPCF(vPositionFromLight3, shadowSampler3);\r\n\t#else\r\n\t\tshadow = computeShadow(vPositionFromLight3, shadowSampler3, darkness3);\r\n\t#endif\t\r\n#endif\t\r\n#else\r\n\tshadow = 1.;\r\n#endif\r\n\tdiffuseBase += info.diffuse * shadow;\r\n\tspecularBase += info.specular * shadow;\r\n#endif\r\n\r\n\t// Reflection\r\n\tvec3 reflectionColor = vec3(0., 0., 0.);\r\n\r\n#ifdef REFLECTION\r\n\tvec3 vReflectionUVW = computeReflectionCoords(vReflectionInfos.x, vec4(vPositionW, 1.0), normalW);\r\n\r\n\tif (vReflectionInfos.z != 0.0)\r\n\t{\r\n\t\treflectionColor = textureCube(reflectionCubeSampler, vReflectionUVW).rgb * vReflectionInfos.y * shadow;\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvec2 coords = vReflectionUVW.xy;\r\n\r\n\t\tif (vReflectionInfos.x == MAP_PROJECTION)\r\n\t\t{\r\n\t\t\tcoords /= vReflectionUVW.z;\r\n\t\t}\r\n\r\n\t\tcoords.y = 1.0 - coords.y;\r\n\r\n\t\treflectionColor = texture2D(reflection2DSampler, coords).rgb * vReflectionInfos.y * shadow;\r\n\t}\r\n\r\n#ifdef REFLECTIONFRESNEL\r\n\tfloat reflectionFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, reflectionRightColor.a, reflectionLeftColor.a);\r\n\r\n\treflectionColor *= reflectionLeftColor.rgb * (1.0 - reflectionFresnelTerm) + reflectionFresnelTerm * reflectionRightColor.rgb;\r\n#endif\r\n#endif\r\n\r\n#ifdef OPACITY\r\n\tvec4 opacityMap = texture2D(opacitySampler, vOpacityUV);\r\n\r\n#ifdef OPACITYRGB\r\n\topacityMap.rgb = opacityMap.rgb * vec3(0.3, 0.59, 0.11);\r\n\talpha *= (opacityMap.x + opacityMap.y + opacityMap.z)* vOpacityInfos.y;\r\n#else\r\n\talpha *= opacityMap.a * vOpacityInfos.y;\r\n#endif\r\n\r\n#endif\r\n\r\n#ifdef OPACITYFRESNEL\r\n\tfloat opacityFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, opacityParts.z, opacityParts.w);\r\n\r\n\talpha += opacityParts.x * (1.0 - opacityFresnelTerm) + opacityFresnelTerm * opacityParts.y;\r\n#endif\r\n\r\n\t// Emissive\r\n\tvec3 emissiveColor = vEmissiveColor;\r\n#ifdef EMISSIVE\r\n\temissiveColor += texture2D(emissiveSampler, vEmissiveUV).rgb * vEmissiveInfos.y;\r\n#endif\r\n\r\n#ifdef EMISSIVEFRESNEL\r\n\tfloat emissiveFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, emissiveRightColor.a, emissiveLeftColor.a);\r\n\r\n\temissiveColor *= emissiveLeftColor.rgb * (1.0 - emissiveFresnelTerm) + emissiveFresnelTerm * emissiveRightColor.rgb;\r\n#endif\r\n\r\n\t// Specular map\r\n\tvec3 specularColor = vSpecularColor.rgb;\r\n#ifdef SPECULAR\r\n\tspecularColor = texture2D(specularSampler, vSpecularUV).rgb * vSpecularInfos.y;\r\n#endif\r\n\r\n\t// Fresnel\r\n#ifdef DIFFUSEFRESNEL\r\n\tfloat diffuseFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, diffuseRightColor.a, diffuseLeftColor.a);\r\n\r\n\tdiffuseBase *= diffuseLeftColor.rgb * (1.0 - diffuseFresnelTerm) + diffuseFresnelTerm * diffuseRightColor.rgb;\r\n#endif\r\n\r\n\t// Composition\r\n\tvec3 finalDiffuse = clamp(diffuseBase * diffuseColor + emissiveColor + vAmbientColor, 0.0, 1.0) * baseColor.rgb;\r\n\tvec3 finalSpecular = specularBase * specularColor;\r\n\r\n#ifdef SPECULAROVERALPHA\r\n\talpha = clamp(alpha + dot(finalSpecular, vec3(0.3, 0.59, 0.11)), 0., 1.);\r\n#endif\r\n\r\n\tvec4 color = vec4(finalDiffuse * baseAmbientColor + finalSpecular + reflectionColor, alpha);\r\n\r\n#ifdef FOG\r\n\tfloat fog = CalcFogFactor();\r\n\tcolor.rgb = fog * color.rgb + (1.0 - fog) * vFogColor;\r\n#endif\r\n\r\n\tgl_FragColor = color;\r\n}","defaultVertexShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Attributes\r\nattribute vec3 position;\r\nattribute vec3 normal;\r\n#ifdef UV1\r\nattribute vec2 uv;\r\n#endif\r\n#ifdef UV2\r\nattribute vec2 uv2;\r\n#endif\r\n#ifdef VERTEXCOLOR\r\nattribute vec3 color;\r\n#endif\r\n#ifdef BONES\r\nattribute vec4 matricesIndices;\r\nattribute vec4 matricesWeights;\r\n#endif\r\n\r\n// Uniforms\r\n\r\n#ifdef INSTANCES\r\nattribute vec4 world0;\r\nattribute vec4 world1;\r\nattribute vec4 world2;\r\nattribute vec4 world3;\r\n#else\r\nuniform mat4 world;\r\n#endif\r\n\r\nuniform mat4 view;\r\nuniform mat4 viewProjection;\r\n\r\n#ifdef DIFFUSE\r\nvarying vec2 vDiffuseUV;\r\nuniform mat4 diffuseMatrix;\r\nuniform vec2 vDiffuseInfos;\r\n#endif\r\n\r\n#ifdef AMBIENT\r\nvarying vec2 vAmbientUV;\r\nuniform mat4 ambientMatrix;\r\nuniform vec2 vAmbientInfos;\r\n#endif\r\n\r\n#ifdef OPACITY\r\nvarying vec2 vOpacityUV;\r\nuniform mat4 opacityMatrix;\r\nuniform vec2 vOpacityInfos;\r\n#endif\r\n\r\n#ifdef EMISSIVE\r\nvarying vec2 vEmissiveUV;\r\nuniform vec2 vEmissiveInfos;\r\nuniform mat4 emissiveMatrix;\r\n#endif\r\n\r\n#ifdef SPECULAR\r\nvarying vec2 vSpecularUV;\r\nuniform vec2 vSpecularInfos;\r\nuniform mat4 specularMatrix;\r\n#endif\r\n\r\n#ifdef BUMP\r\nvarying vec2 vBumpUV;\r\nuniform vec2 vBumpInfos;\r\nuniform mat4 bumpMatrix;\r\n#endif\r\n\r\n#ifdef BONES\r\nuniform mat4 mBones[BonesPerMesh];\r\n#endif\r\n\r\n// Output\r\nvarying vec3 vPositionW;\r\nvarying vec3 vNormalW;\r\n\r\n#ifdef VERTEXCOLOR\r\nvarying vec3 vColor;\r\n#endif\r\n\r\n#ifdef CLIPPLANE\r\nuniform vec4 vClipPlane;\r\nvarying float fClipDistance;\r\n#endif\r\n\r\n#ifdef FOG\r\nvarying float fFogDistance;\r\n#endif\r\n\r\n#ifdef SHADOWS\r\n#ifdef LIGHT0\r\nuniform mat4 lightMatrix0;\r\nvarying vec4 vPositionFromLight0;\r\n#endif\r\n#ifdef LIGHT1\r\nuniform mat4 lightMatrix1;\r\nvarying vec4 vPositionFromLight1;\r\n#endif\r\n#ifdef LIGHT2\r\nuniform mat4 lightMatrix2;\r\nvarying vec4 vPositionFromLight2;\r\n#endif\r\n#ifdef LIGHT3\r\nuniform mat4 lightMatrix3;\r\nvarying vec4 vPositionFromLight3;\r\n#endif\r\n#endif\r\n\r\n#ifdef REFLECTION\r\nvarying vec3 vPositionUVW;\r\n#endif\r\n\r\nvoid main(void) {\r\n\tmat4 finalWorld;\r\n\r\n#ifdef REFLECTION\r\n\tvPositionUVW = position;\r\n#endif \r\n\r\n#ifdef BONES\r\n\tmat4 m0 = mBones[int(matricesIndices.x)] * matricesWeights.x;\r\n\tmat4 m1 = mBones[int(matricesIndices.y)] * matricesWeights.y;\r\n\tmat4 m2 = mBones[int(matricesIndices.z)] * matricesWeights.z;\r\n\r\n#ifdef BONES4\r\n\tmat4 m3 = mBones[int(matricesIndices.w)] * matricesWeights.w;\r\n\tfinalWorld = world * (m0 + m1 + m2 + m3);\r\n#else\r\n\tfinalWorld = world * (m0 + m1 + m2);\r\n#endif \r\n\r\n#else\r\n#ifdef INSTANCES\r\n\tfinalWorld = mat4(world0, world1, world2, world3);\r\n#else\r\n\tfinalWorld = world;\r\n#endif\r\n#endif\r\n\tgl_Position = viewProjection * finalWorld * vec4(position, 1.0);\r\n\r\n\tvec4 worldPos = finalWorld * vec4(position, 1.0);\r\n\tvPositionW = vec3(worldPos);\r\n\tvNormalW = normalize(vec3(finalWorld * vec4(normal, 0.0)));\r\n\r\n\t// Texture coordinates\r\n#ifndef UV1\r\n\tvec2 uv = vec2(0., 0.);\r\n#endif\r\n#ifndef UV2\r\n\tvec2 uv2 = vec2(0., 0.);\r\n#endif\r\n\r\n#ifdef DIFFUSE\r\n\tif (vDiffuseInfos.x == 0.)\r\n\t{\r\n\t\tvDiffuseUV = vec2(diffuseMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvDiffuseUV = vec2(diffuseMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n#ifdef AMBIENT\r\n\tif (vAmbientInfos.x == 0.)\r\n\t{\r\n\t\tvAmbientUV = vec2(ambientMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvAmbientUV = vec2(ambientMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n#ifdef OPACITY\r\n\tif (vOpacityInfos.x == 0.)\r\n\t{\r\n\t\tvOpacityUV = vec2(opacityMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvOpacityUV = vec2(opacityMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n#ifdef EMISSIVE\r\n\tif (vEmissiveInfos.x == 0.)\r\n\t{\r\n\t\tvEmissiveUV = vec2(emissiveMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvEmissiveUV = vec2(emissiveMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n#ifdef SPECULAR\r\n\tif (vSpecularInfos.x == 0.)\r\n\t{\r\n\t\tvSpecularUV = vec2(specularMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvSpecularUV = vec2(specularMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n#ifdef BUMP\r\n\tif (vBumpInfos.x == 0.)\r\n\t{\r\n\t\tvBumpUV = vec2(bumpMatrix * vec4(uv, 1.0, 0.0));\r\n\t}\r\n\telse\r\n\t{\r\n\t\tvBumpUV = vec2(bumpMatrix * vec4(uv2, 1.0, 0.0));\r\n\t}\r\n#endif\r\n\r\n\t// Clip plane\r\n#ifdef CLIPPLANE\r\n\tfClipDistance = dot(worldPos, vClipPlane);\r\n#endif\r\n\r\n\t// Fog\r\n#ifdef FOG\r\n\tfFogDistance = (view * worldPos).z;\r\n#endif\r\n\r\n\t// Shadows\r\n#ifdef SHADOWS\r\n#ifdef LIGHT0\r\n\tvPositionFromLight0 = lightMatrix0 * worldPos;\r\n#endif\r\n#ifdef LIGHT1\r\n\tvPositionFromLight1 = lightMatrix1 * worldPos;\r\n#endif\r\n#ifdef LIGHT2\r\n\tvPositionFromLight2 = lightMatrix2 * worldPos;\r\n#endif\r\n#ifdef LIGHT3\r\n\tvPositionFromLight3 = lightMatrix3 * worldPos;\r\n#endif\r\n#endif\r\n\r\n\t// Vertex color\r\n#ifdef VERTEXCOLOR\r\n\tvColor = color;\r\n#endif\r\n}","displayPassPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\nuniform sampler2D passSampler;\n\nvoid main(void)\n{\n    gl_FragColor = texture2D(passSampler, vUV);\n}","filterPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\nuniform mat4 kernelMatrix;\n\nvoid main(void)\n{\n\tvec3 baseColor = texture2D(textureSampler, vUV).rgb;\n\tvec3 updatedColor = (kernelMatrix * vec4(baseColor, 1.0)).rgb;\n\n\tgl_FragColor = vec4(updatedColor, 1.0);\n}","fxaaPixelShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n#define FXAA_REDUCE_MIN   (1.0/128.0)\r\n#define FXAA_REDUCE_MUL   (1.0/8.0)\r\n#define FXAA_SPAN_MAX     8.0\r\n\r\nvarying vec2 vUV;\r\nuniform sampler2D textureSampler;\r\nuniform vec2 texelSize;\r\n\r\nvoid main(){\r\n\tvec2 localTexelSize = texelSize;\r\n\tvec4 rgbNW = texture2D(textureSampler, (vUV + vec2(-1.0, -1.0) * localTexelSize));\r\n\tvec4 rgbNE = texture2D(textureSampler, (vUV + vec2(1.0, -1.0) * localTexelSize));\r\n\tvec4 rgbSW = texture2D(textureSampler, (vUV + vec2(-1.0, 1.0) * localTexelSize));\r\n\tvec4 rgbSE = texture2D(textureSampler, (vUV + vec2(1.0, 1.0) * localTexelSize));\r\n\tvec4 rgbM = texture2D(textureSampler, vUV);\r\n\tvec4 luma = vec4(0.299, 0.587, 0.114, 1.0);\r\n\tfloat lumaNW = dot(rgbNW, luma);\r\n\tfloat lumaNE = dot(rgbNE, luma);\r\n\tfloat lumaSW = dot(rgbSW, luma);\r\n\tfloat lumaSE = dot(rgbSE, luma);\r\n\tfloat lumaM = dot(rgbM, luma);\r\n\tfloat lumaMin = min(lumaM, min(min(lumaNW, lumaNE), min(lumaSW, lumaSE)));\r\n\tfloat lumaMax = max(lumaM, max(max(lumaNW, lumaNE), max(lumaSW, lumaSE)));\r\n\r\n\tvec2 dir = vec2(-((lumaNW + lumaNE) - (lumaSW + lumaSE)), ((lumaNW + lumaSW) - (lumaNE + lumaSE)));\r\n\r\n\tfloat dirReduce = max(\r\n\t\t(lumaNW + lumaNE + lumaSW + lumaSE) * (0.25 * FXAA_REDUCE_MUL),\r\n\t\tFXAA_REDUCE_MIN);\r\n\r\n\tfloat rcpDirMin = 1.0 / (min(abs(dir.x), abs(dir.y)) + dirReduce);\r\n\tdir = min(vec2(FXAA_SPAN_MAX, FXAA_SPAN_MAX),\r\n\t\tmax(vec2(-FXAA_SPAN_MAX, -FXAA_SPAN_MAX),\r\n\t\tdir * rcpDirMin)) * localTexelSize;\r\n\r\n\tvec4 rgbA = 0.5 * (\r\n\t\ttexture2D(textureSampler, vUV + dir * (1.0 / 3.0 - 0.5)) +\r\n\t\ttexture2D(textureSampler, vUV + dir * (2.0 / 3.0 - 0.5)));\r\n\r\n\tvec4 rgbB = rgbA * 0.5 + 0.25 * (\r\n\t\ttexture2D(textureSampler, vUV + dir *  -0.5) +\r\n\t\ttexture2D(textureSampler, vUV + dir * 0.5));\r\n\tfloat lumaB = dot(rgbB, luma);\r\n\tif ((lumaB < lumaMin) || (lumaB > lumaMax)) {\r\n\t\tgl_FragColor = rgbA;\r\n\t}\r\n\telse {\r\n\t\tgl_FragColor = rgbB;\r\n\t}\r\n}","layerPixelShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Samplers\r\nvarying vec2 vUV;\r\nuniform sampler2D textureSampler;\r\n\r\n// Color\r\nuniform vec4 color;\r\n\r\nvoid main(void) {\r\n\tvec4 baseColor = texture2D(textureSampler, vUV);\r\n\r\n\tgl_FragColor = baseColor * color;\r\n}","layerVertexShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Attributes\r\nattribute vec2 position;\r\n\r\n// Uniforms\r\nuniform mat4 textureMatrix;\r\n\r\n// Output\r\nvarying vec2 vUV;\r\n\r\nconst vec2 madd = vec2(0.5, 0.5);\r\n\r\nvoid main(void) {\t\r\n\r\n\tvUV = vec2(textureMatrix * vec4(position * madd + madd, 1.0, 0.0));\r\n\tgl_Position = vec4(position, 0.0, 1.0);\r\n}","legacydefaultPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n#define MAP_PROJECTION\t4.\n\n// Constants\nuniform vec3 vEyePosition;\nuniform vec3 vAmbientColor;\nuniform vec4 vDiffuseColor;\nuniform vec4 vSpecularColor;\nuniform vec3 vEmissiveColor;\n\n// Input\nvarying vec3 vPositionW;\nvarying vec3 vNormalW;\n\n#ifdef VERTEXCOLOR\nvarying vec3 vColor;\n#endif\n\n// Lights\n#ifdef LIGHT0\nuniform vec4 vLightData0;\nuniform vec4 vLightDiffuse0;\nuniform vec3 vLightSpecular0;\n#ifdef SHADOW0\nvarying vec4 vPositionFromLight0;\nuniform sampler2D shadowSampler0;\n#endif\n#ifdef SPOTLIGHT0\nuniform vec4 vLightDirection0;\n#endif\n#ifdef HEMILIGHT0\nuniform vec3 vLightGround0;\n#endif\n#endif\n\n#ifdef LIGHT1\nuniform vec4 vLightData1;\nuniform vec4 vLightDiffuse1;\nuniform vec3 vLightSpecular1;\n#ifdef SHADOW1\nvarying vec4 vPositionFromLight1;\nuniform sampler2D shadowSampler1;\n#endif\n#ifdef SPOTLIGHT1\nuniform vec4 vLightDirection1;\n#endif\n#ifdef HEMILIGHT1\nuniform vec3 vLightGround1;\n#endif\n#endif\n\n#ifdef LIGHT2\nuniform vec4 vLightData2;\nuniform vec4 vLightDiffuse2;\nuniform vec3 vLightSpecular2;\n#ifdef SHADOW2\nvarying vec4 vPositionFromLight2;\nuniform sampler2D shadowSampler2;\n#endif\n#ifdef SPOTLIGHT2\nuniform vec4 vLightDirection2;\n#endif\n#ifdef HEMILIGHT2\nuniform vec3 vLightGround2;\n#endif\n#endif\n\n#ifdef LIGHT3\nuniform vec4 vLightData3;\nuniform vec4 vLightDiffuse3;\nuniform vec3 vLightSpecular3;\n#ifdef SHADOW3\nvarying vec4 vPositionFromLight3;\nuniform sampler2D shadowSampler3;\n#endif\n#ifdef SPOTLIGHT3\nuniform vec4 vLightDirection3;\n#endif\n#ifdef HEMILIGHT3\nuniform vec3 vLightGround3;\n#endif\n#endif\n\n// Samplers\n#ifdef DIFFUSE\nvarying vec2 vDiffuseUV;\nuniform sampler2D diffuseSampler;\nuniform vec2 vDiffuseInfos;\n#endif\n\n#ifdef AMBIENT\nvarying vec2 vAmbientUV;\nuniform sampler2D ambientSampler;\nuniform vec2 vAmbientInfos;\n#endif\n\n#ifdef OPACITY\t\nvarying vec2 vOpacityUV;\nuniform sampler2D opacitySampler;\nuniform vec2 vOpacityInfos;\n#endif\n\n#ifdef REFLECTION\nvarying vec3 vReflectionUVW;\nuniform samplerCube reflectionCubeSampler;\nuniform sampler2D reflection2DSampler;\nuniform vec3 vReflectionInfos;\n#endif\n\n#ifdef EMISSIVE\nvarying vec2 vEmissiveUV;\nuniform vec2 vEmissiveInfos;\nuniform sampler2D emissiveSampler;\n#endif\n\n#ifdef SPECULAR\nvarying vec2 vSpecularUV;\nuniform vec2 vSpecularInfos;\nuniform sampler2D specularSampler;\n#endif\n\n// Fresnel\n#ifdef FRESNEL\nfloat computeFresnelTerm(vec3 viewDirection, vec3 worldNormal, float bias, float power)\n{\n\tfloat fresnelTerm = pow(bias + abs(dot(viewDirection, worldNormal)), power);\n\treturn clamp(fresnelTerm, 0., 1.);\n}\n#endif\n\n#ifdef DIFFUSEFRESNEL\nuniform vec4 diffuseLeftColor;\nuniform vec4 diffuseRightColor;\n#endif\n\n#ifdef OPACITYFRESNEL\nuniform vec4 opacityParts;\n#endif\n\n#ifdef REFLECTIONFRESNEL\nuniform vec4 reflectionLeftColor;\nuniform vec4 reflectionRightColor;\n#endif\n\n#ifdef EMISSIVEFRESNEL\nuniform vec4 emissiveLeftColor;\nuniform vec4 emissiveRightColor;\n#endif\n\n// Shadows\n#ifdef SHADOWS\n\nfloat unpack(vec4 color)\n{\n\tconst vec4 bitShift = vec4(1. / (255. * 255. * 255.), 1. / (255. * 255.), 1. / 255., 1.);\n\treturn dot(color, bitShift);\n}\n\nfloat unpackHalf(vec2 color)\n{\n\treturn color.x + (color.y / 255.0);\n}\n\nfloat computeShadow(vec4 vPositionFromLight, sampler2D shadowSampler)\n{\n\tvec3 depth = vPositionFromLight.xyz / vPositionFromLight.w;\n\tvec2 uv = 0.5 * depth.xy + vec2(0.5, 0.5);\n\n\tif (uv.x < 0. || uv.x > 1.0 || uv.y < 0. || uv.y > 1.0)\n\t{\n\t\treturn 1.0;\n\t}\n\n\tfloat shadow = unpack(texture2D(shadowSampler, uv));\n\n\tif (depth.z > shadow)\n\t{\n\t\treturn 0.;\n\t}\n\treturn 1.;\n}\n\n// Thanks to http://devmaster.net/\nfloat ChebychevInequality(vec2 moments, float t)\n{\n\tif (t <= moments.x)\n\t{\n\t\treturn 1.0;\n\t}\n\n\tfloat variance = moments.y - (moments.x * moments.x);\n\tvariance = max(variance, 0.);\n\n\tfloat d = t - moments.x;\n\treturn variance / (variance + d * d);\n}\n\nfloat computeShadowWithVSM(vec4 vPositionFromLight, sampler2D shadowSampler)\n{\n\tvec3 depth = vPositionFromLight.xyz / vPositionFromLight.w;\n\tvec2 uv = 0.5 * depth.xy + vec2(0.5, 0.5);\n\n\tif (uv.x < 0. || uv.x > 1.0 || uv.y < 0. || uv.y > 1.0)\n\t{\n\t\treturn 1.0;\n\t}\n\n\tvec4 texel = texture2D(shadowSampler, uv);\n\n\tvec2 moments = vec2(unpackHalf(texel.xy), unpackHalf(texel.zw));\n\treturn clamp(1.3 - ChebychevInequality(moments, depth.z), 0., 1.0);\n}\n#endif\n\n#ifdef CLIPPLANE\nvarying float fClipDistance;\n#endif\n\n// Fog\n#ifdef FOG\n\n#define FOGMODE_NONE    0.\n#define FOGMODE_EXP     1.\n#define FOGMODE_EXP2    2.\n#define FOGMODE_LINEAR  3.\n#define E 2.71828\n\nuniform vec4 vFogInfos;\nuniform vec3 vFogColor;\nvarying float fFogDistance;\n\nfloat CalcFogFactor()\n{\n\tfloat fogCoeff = 1.0;\n\tfloat fogStart = vFogInfos.y;\n\tfloat fogEnd = vFogInfos.z;\n\tfloat fogDensity = vFogInfos.w;\n\n\tif (FOGMODE_LINEAR == vFogInfos.x)\n\t{\n\t\tfogCoeff = (fogEnd - fFogDistance) / (fogEnd - fogStart);\n\t}\n\telse if (FOGMODE_EXP == vFogInfos.x)\n\t{\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fogDensity);\n\t}\n\telse if (FOGMODE_EXP2 == vFogInfos.x)\n\t{\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fFogDistance * fogDensity * fogDensity);\n\t}\n\n\treturn clamp(fogCoeff, 0.0, 1.0);\n}\n#endif\n\n// Light Computing\nmat3 computeLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec4 diffuseColor, vec3 specularColor) {\n\tmat3 result;\n\n\tvec3 lightVectorW;\n\tif (lightData.w == 0.)\n\t{\n\t\tlightVectorW = normalize(lightData.xyz - vPositionW);\n\t}\n\telse\n\t{\n\t\tlightVectorW = normalize(-lightData.xyz);\n\t}\n\n\t// diffuse\n\tfloat ndl = max(0., dot(vNormal, lightVectorW));\n\n\t// Specular\n\tvec3 angleW = normalize(viewDirectionW + lightVectorW);\n\tfloat specComp = max(0., dot(vNormal, angleW));\n\tspecComp = max(0., pow(specComp, max(1.0, vSpecularColor.a)));\n\n\tresult[0] = ndl * diffuseColor.rgb;\n\tresult[1] = specComp * specularColor;\n\tresult[2] = vec3(0.);\n\n\treturn result;\n}\n\nmat3 computeSpotLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec4 lightDirection, vec4 diffuseColor, vec3 specularColor) {\n\tmat3 result;\n\n\tvec3 lightVectorW = normalize(lightData.xyz - vPositionW);\n\n\t// diffuse\n\tfloat cosAngle = max(0., dot(-lightDirection.xyz, lightVectorW));\n\tfloat spotAtten = 0.0;\n\n\tif (cosAngle >= lightDirection.w)\n\t{\n\t\tcosAngle = max(0., pow(cosAngle, lightData.w));\n\t\tspotAtten = max(0., (cosAngle - lightDirection.w) / (1. - cosAngle));\n\n\t\t// Diffuse\n\t\tfloat ndl = max(0., dot(vNormal, -lightDirection.xyz));\n\n\t\t// Specular\n\t\tvec3 angleW = normalize(viewDirectionW - lightDirection.xyz);\n\t\tfloat specComp = max(0., dot(vNormal, angleW));\n\t\tspecComp = pow(specComp, vSpecularColor.a);\n\n\t\tresult[0] = ndl * spotAtten * diffuseColor.rgb;\n\t\tresult[1] = specComp * specularColor * spotAtten;\n\t\tresult[2] = vec3(0.);\n\n\t\treturn result;\n\t}\n\n\tresult[0] = vec3(0.);\n\tresult[1] = vec3(0.);\n\tresult[2] = vec3(0.);\n\n\treturn result;\n}\n\nmat3 computeHemisphericLighting(vec3 viewDirectionW, vec3 vNormal, vec4 lightData, vec4 diffuseColor, vec3 specularColor, vec3 groundColor) {\n\tmat3 result;\n\n\t// Diffuse\n\tfloat ndl = dot(vNormal, lightData.xyz) * 0.5 + 0.5;\n\n\t// Specular\n\tvec3 angleW = normalize(viewDirectionW + lightData.xyz);\n\tfloat specComp = max(0., dot(vNormal, angleW));\n\tspecComp = pow(specComp, vSpecularColor.a);\n\n\tresult[0] = mix(groundColor, diffuseColor.rgb, ndl);\n\tresult[1] = specComp * specularColor;\n\tresult[2] = vec3(0.);\n\n\treturn result;\n}\n\nvoid main(void) {\n\t// Clip plane\n#ifdef CLIPPLANE\n\tif (fClipDistance > 0.0)\n\t\tdiscard;\n#endif\n\n\tvec3 viewDirectionW = normalize(vEyePosition - vPositionW);\n\n\t// Base color\n\tvec4 baseColor = vec4(1., 1., 1., 1.);\n\tvec3 diffuseColor = vDiffuseColor.rgb;\n\n#ifdef VERTEXCOLOR\n\tdiffuseColor *= vColor;\n#endif\n\n#ifdef DIFFUSE\n\tbaseColor = texture2D(diffuseSampler, vDiffuseUV);\n\n#ifdef ALPHATEST\n\tif (baseColor.a < 0.4)\n\t\tdiscard;\n#endif\n\n\tbaseColor.rgb *= vDiffuseInfos.y;\n#endif\n\n\t// Bump\n\tvec3 normalW = normalize(vNormalW);\n\n\t// Ambient color\n\tvec3 baseAmbientColor = vec3(1., 1., 1.);\n\n#ifdef AMBIENT\n\tbaseAmbientColor = texture2D(ambientSampler, vAmbientUV).rgb * vAmbientInfos.y;\n#endif\n\n\t// Lighting\n\tvec3 diffuseBase = vec3(0., 0., 0.);\n\tvec3 specularBase = vec3(0., 0., 0.);\n\tfloat shadow = 1.;\n\n#ifdef LIGHT0\n#ifdef SPOTLIGHT0\n\tmat3 info = computeSpotLighting(viewDirectionW, normalW, vLightData0, vLightDirection0, vLightDiffuse0, vLightSpecular0);\n#endif\n#ifdef HEMILIGHT0\n\tmat3 info = computeHemisphericLighting(viewDirectionW, normalW, vLightData0, vLightDiffuse0, vLightSpecular0, vLightGround0);\n#endif\n#ifdef POINTDIRLIGHT0\n\tmat3 info = computeLighting(viewDirectionW, normalW, vLightData0, vLightDiffuse0, vLightSpecular0);\n#endif\n#ifdef SHADOW0\n#ifdef SHADOWVSM0\n\tshadow = computeShadowWithVSM(vPositionFromLight0, shadowSampler0);\n#else\n\tshadow = computeShadow(vPositionFromLight0, shadowSampler0);\n#endif\n#else\n\tshadow = 1.;\n#endif\n\tdiffuseBase += info[0] * shadow;\n\tspecularBase += info[1] * shadow;\n#endif\n\n#ifdef LIGHT1\n#ifdef SPOTLIGHT1\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData1, vLightDirection1, vLightDiffuse1, vLightSpecular1);\n#endif\n#ifdef HEMILIGHT1\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData1, vLightDiffuse1, vLightSpecular1, vLightGround1);\n#endif\n#ifdef POINTDIRLIGHT1\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData1, vLightDiffuse1, vLightSpecular1);\n#endif\n#ifdef SHADOW1\n#ifdef SHADOWVSM1\n\tshadow = computeShadowWithVSM(vPositionFromLight1, shadowSampler1);\n#else\n\tshadow = computeShadow(vPositionFromLight1, shadowSampler1);\n#endif\n#else\n\tshadow = 1.;\n#endif\n\tdiffuseBase += info[0] * shadow;\n\tspecularBase += info[1] * shadow;\n#endif\n\n#ifdef LIGHT2\n#ifdef SPOTLIGHT2\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData2, vLightDirection2, vLightDiffuse2, vLightSpecular2);\n#endif\n#ifdef HEMILIGHT2\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData2, vLightDiffuse2, vLightSpecular2, vLightGround2);\n#endif\n#ifdef POINTDIRLIGHT2\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData2, vLightDiffuse2, vLightSpecular2);\n#endif\n#ifdef SHADOW2\n#ifdef SHADOWVSM2\n\tshadow = computeShadowWithVSM(vPositionFromLight2, shadowSampler2);\n#else\n\tshadow = computeShadow(vPositionFromLight2, shadowSampler2);\n#endif\t\n#else\n\tshadow = 1.;\n#endif\n\tdiffuseBase += info[0] * shadow;\n\tspecularBase += info[1] * shadow;\n#endif\n\n#ifdef LIGHT3\n#ifdef SPOTLIGHT3\n\tinfo = computeSpotLighting(viewDirectionW, normalW, vLightData3, vLightDirection3, vLightDiffuse3, vLightSpecular3);\n#endif\n#ifdef HEMILIGHT3\n\tinfo = computeHemisphericLighting(viewDirectionW, normalW, vLightData3, vLightDiffuse3, vLightSpecular3, vLightGround3);\n#endif\n#ifdef POINTDIRLIGHT3\n\tinfo = computeLighting(viewDirectionW, normalW, vLightData3, vLightDiffuse3, vLightSpecular3);\n#endif\n#ifdef SHADOW3\n#ifdef SHADOWVSM3\n\tshadow = computeShadowWithVSM(vPositionFromLight3, shadowSampler3);\n#else\n\tshadow = computeShadow(vPositionFromLight3, shadowSampler3);\n#endif\t\n#else\n\tshadow = 1.;\n#endif\n\tdiffuseBase += info[0] * shadow;\n\tspecularBase += info[1] * shadow;\n#endif\n\n\t// Reflection\n\tvec3 reflectionColor = vec3(0., 0., 0.);\n\n#ifdef REFLECTION\n\tif (vReflectionInfos.z != 0.0)\n\t{\n\t\treflectionColor = textureCube(reflectionCubeSampler, vReflectionUVW).rgb * vReflectionInfos.y;\n\t}\n\telse\n\t{\n\t\tvec2 coords = vReflectionUVW.xy;\n\n\t\tif (vReflectionInfos.x == MAP_PROJECTION)\n\t\t{\n\t\t\tcoords /= vReflectionUVW.z;\n\t\t}\n\n\t\tcoords.y = 1.0 - coords.y;\n\n\t\treflectionColor = texture2D(reflection2DSampler, coords).rgb * vReflectionInfos.y;\n\t}\n\n#ifdef REFLECTIONFRESNEL\n\tfloat reflectionFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, reflectionRightColor.a, reflectionLeftColor.a);\n\n\treflectionColor *= reflectionLeftColor.rgb * (1.0 - reflectionFresnelTerm) + reflectionFresnelTerm * reflectionRightColor.rgb;\n#endif\n#endif\n\n\t// Alpha\n\tfloat alpha = vDiffuseColor.a;\n\n#ifdef OPACITY\n\tvec4 opacityMap = texture2D(opacitySampler, vOpacityUV);\n#ifdef OPACITYRGB\n\topacityMap.rgb = opacityMap.rgb * vec3(0.3, 0.59, 0.11);\n\talpha *= (opacityMap.x + opacityMap.y + opacityMap.z)* vOpacityInfos.y;\n#else\n\talpha *= opacityMap.a * vOpacityInfos.y;\n#endif\n#endif\n\n#ifdef OPACITYFRESNEL\n\tfloat opacityFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, opacityParts.z, opacityParts.w);\n\n\talpha += opacityParts.x * (1.0 - opacityFresnelTerm) + opacityFresnelTerm * opacityParts.y;\n#endif\n\n\t// Emissive\n\tvec3 emissiveColor = vEmissiveColor;\n#ifdef EMISSIVE\n\temissiveColor += texture2D(emissiveSampler, vEmissiveUV).rgb * vEmissiveInfos.y;\n#endif\n\n#ifdef EMISSIVEFRESNEL\n\tfloat emissiveFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, emissiveRightColor.a, emissiveLeftColor.a);\n\n\temissiveColor *= emissiveLeftColor.rgb * (1.0 - emissiveFresnelTerm) + emissiveFresnelTerm * emissiveRightColor.rgb;\n#endif\n\n\t// Specular map\n\tvec3 specularColor = vSpecularColor.rgb;\n#ifdef SPECULAR\n\tspecularColor = texture2D(specularSampler, vSpecularUV).rgb * vSpecularInfos.y;\n#endif\n\n\t// Fresnel\n#ifdef DIFFUSEFRESNEL\n\tfloat diffuseFresnelTerm = computeFresnelTerm(viewDirectionW, normalW, diffuseRightColor.a, diffuseLeftColor.a);\n\n\tdiffuseBase *= diffuseLeftColor.rgb * (1.0 - diffuseFresnelTerm) + diffuseFresnelTerm * diffuseRightColor.rgb;\n#endif\n\n\t// Composition\n\tvec3 finalDiffuse = clamp(diffuseBase * diffuseColor + emissiveColor + vAmbientColor, 0.0, 1.0) * baseColor.rgb;\n\tvec3 finalSpecular = specularBase * specularColor;\n\n\tvec4 color = vec4(finalDiffuse * baseAmbientColor + finalSpecular + reflectionColor, alpha);\n\n#ifdef FOG\n\tfloat fog = CalcFogFactor();\n\tcolor.rgb = fog * color.rgb + (1.0 - fog) * vFogColor;\n#endif\n\n\tgl_FragColor = color;\n}","legacydefaultVertexShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n#define MAP_EXPLICIT\t0.\n#define MAP_SPHERICAL\t1.\n#define MAP_PLANAR\t\t2.\n#define MAP_CUBIC\t\t3.\n#define MAP_PROJECTION\t4.\n#define MAP_SKYBOX\t\t5.\n\n// Attributes\nattribute vec3 position;\nattribute vec3 normal;\n#ifdef UV1\nattribute vec2 uv;\n#endif\n#ifdef UV2\nattribute vec2 uv2;\n#endif\n#ifdef VERTEXCOLOR\nattribute vec3 color;\n#endif\n#ifdef BONES\nattribute vec4 matricesIndices;\nattribute vec4 matricesWeights;\n#endif\n\n// Uniforms\nuniform mat4 world;\nuniform mat4 view;\nuniform mat4 viewProjection;\n\n#ifdef DIFFUSE\nvarying vec2 vDiffuseUV;\nuniform mat4 diffuseMatrix;\nuniform vec2 vDiffuseInfos;\n#endif\n\n#ifdef AMBIENT\nvarying vec2 vAmbientUV;\nuniform mat4 ambientMatrix;\nuniform vec2 vAmbientInfos;\n#endif\n\n#ifdef OPACITY\nvarying vec2 vOpacityUV;\nuniform mat4 opacityMatrix;\nuniform vec2 vOpacityInfos;\n#endif\n\n#ifdef REFLECTION\nuniform vec3 vEyePosition;\nvarying vec3 vReflectionUVW;\nuniform vec3 vReflectionInfos;\nuniform mat4 reflectionMatrix;\n#endif\n\n#ifdef EMISSIVE\nvarying vec2 vEmissiveUV;\nuniform vec2 vEmissiveInfos;\nuniform mat4 emissiveMatrix;\n#endif\n\n#ifdef SPECULAR\nvarying vec2 vSpecularUV;\nuniform vec2 vSpecularInfos;\nuniform mat4 specularMatrix;\n#endif\n\n#ifdef BUMP\nvarying vec2 vBumpUV;\nuniform vec2 vBumpInfos;\nuniform mat4 bumpMatrix;\n#endif\n\n#ifdef BONES\nuniform mat4 mBones[BonesPerMesh];\n#endif\n\n// Output\nvarying vec3 vPositionW;\nvarying vec3 vNormalW;\n\n#ifdef VERTEXCOLOR\nvarying vec3 vColor;\n#endif\n\n#ifdef CLIPPLANE\nuniform vec4 vClipPlane;\nvarying float fClipDistance;\n#endif\n\n#ifdef FOG\nvarying float fFogDistance;\n#endif\n\n#ifdef SHADOWS\n#ifdef LIGHT0\nuniform mat4 lightMatrix0;\nvarying vec4 vPositionFromLight0;\n#endif\n#ifdef LIGHT1\nuniform mat4 lightMatrix1;\nvarying vec4 vPositionFromLight1;\n#endif\n#ifdef LIGHT2\nuniform mat4 lightMatrix2;\nvarying vec4 vPositionFromLight2;\n#endif\n#ifdef LIGHT3\nuniform mat4 lightMatrix3;\nvarying vec4 vPositionFromLight3;\n#endif\n#endif\n\n#ifdef REFLECTION\nvec3 computeReflectionCoords(float mode, vec4 worldPos, vec3 worldNormal)\n{\n\tif (mode == MAP_SPHERICAL)\n\t{\n\t\tvec3 coords = vec3(view * vec4(worldNormal, 0.0));\n\n\t\treturn vec3(reflectionMatrix * vec4(coords, 1.0));\n\t}\n\telse if (mode == MAP_PLANAR)\n\t{\n\t\tvec3 viewDir = worldPos.xyz - vEyePosition;\n\t\tvec3 coords = normalize(reflect(viewDir, worldNormal));\n\n\t\treturn vec3(reflectionMatrix * vec4(coords, 1));\n\t}\n\telse if (mode == MAP_CUBIC)\n\t{\n\t\tvec3 viewDir = worldPos.xyz - vEyePosition;\n\t\tvec3 coords = reflect(viewDir, worldNormal);\n\n\t\treturn vec3(reflectionMatrix * vec4(coords, 0));\n\t}\n\telse if (mode == MAP_PROJECTION)\n\t{\n\t\treturn vec3(reflectionMatrix * (view * worldPos));\n\t}\n\telse if (mode == MAP_SKYBOX)\n\t{\n\t\treturn position;\n\t}\n\n\treturn vec3(0, 0, 0);\n}\n#endif\n\nvoid main(void) {\n\tmat4 finalWorld;\n\n#ifdef BONES\n\tmat4 m0 = mBones[int(matricesIndices.x)] * matricesWeights.x;\n\tmat4 m1 = mBones[int(matricesIndices.y)] * matricesWeights.y;\n\tmat4 m2 = mBones[int(matricesIndices.z)] * matricesWeights.z;\n\n#ifdef BONES4\n\tmat4 m3 = mBones[int(matricesIndices.w)] * matricesWeights.w;\n\tfinalWorld = world * (m0 + m1 + m2 + m3);\n#else\n\tfinalWorld = world * (m0 + m1 + m2);\n#endif \n\n#else\n\tfinalWorld = world;\n#endif\n\n\tgl_Position = viewProjection * finalWorld * vec4(position, 1.0);\n\n\tvec4 worldPos = finalWorld * vec4(position, 1.0);\n\tvPositionW = vec3(worldPos);\n\tvNormalW = normalize(vec3(finalWorld * vec4(normal, 0.0)));\n\n\t// Texture coordinates\n#ifndef UV1\n\tvec2 uv = vec2(0., 0.);\n#endif\n#ifndef UV2\n\tvec2 uv2 = vec2(0., 0.);\n#endif\n\n#ifdef DIFFUSE\n\tif (vDiffuseInfos.x == 0.)\n\t{\n\t\tvDiffuseUV = vec2(diffuseMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvDiffuseUV = vec2(diffuseMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n#ifdef AMBIENT\n\tif (vAmbientInfos.x == 0.)\n\t{\n\t\tvAmbientUV = vec2(ambientMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvAmbientUV = vec2(ambientMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n#ifdef OPACITY\n\tif (vOpacityInfos.x == 0.)\n\t{\n\t\tvOpacityUV = vec2(opacityMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvOpacityUV = vec2(opacityMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n#ifdef REFLECTION\n\tvReflectionUVW = computeReflectionCoords(vReflectionInfos.x, vec4(vPositionW, 1.0), vNormalW);\n#endif\n\n#ifdef EMISSIVE\n\tif (vEmissiveInfos.x == 0.)\n\t{\n\t\tvEmissiveUV = vec2(emissiveMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvEmissiveUV = vec2(emissiveMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n#ifdef SPECULAR\n\tif (vSpecularInfos.x == 0.)\n\t{\n\t\tvSpecularUV = vec2(specularMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvSpecularUV = vec2(specularMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n#ifdef BUMP\n\tif (vBumpInfos.x == 0.)\n\t{\n\t\tvBumpUV = vec2(bumpMatrix * vec4(uv, 1.0, 0.0));\n\t}\n\telse\n\t{\n\t\tvBumpUV = vec2(bumpMatrix * vec4(uv2, 1.0, 0.0));\n\t}\n#endif\n\n\t// Clip plane\n#ifdef CLIPPLANE\n\tfClipDistance = dot(worldPos, vClipPlane);\n#endif\n\n\t// Fog\n#ifdef FOG\n\tfFogDistance = (view * worldPos).z;\n#endif\n\n\t// Shadows\n#ifdef SHADOWS\n#ifdef LIGHT0\n\tvPositionFromLight0 = lightMatrix0 * worldPos;\n#endif\n#ifdef LIGHT1\n\tvPositionFromLight1 = lightMatrix1 * worldPos;\n#endif\n#ifdef LIGHT2\n\tvPositionFromLight2 = lightMatrix2 * worldPos;\n#endif\n#ifdef LIGHT3\n\tvPositionFromLight3 = lightMatrix3 * worldPos;\n#endif\n#endif\n\n\t// Vertex color\n#ifdef VERTEXCOLOR\n\tvColor = color;\n#endif\n}","lensFlarePixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\n// Color\nuniform vec4 color;\n\nvoid main(void) {\n\tvec4 baseColor = texture2D(textureSampler, vUV);\n\n\tgl_FragColor = baseColor * color;\n}","lensFlareVertexShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Attributes\nattribute vec2 position;\n\n// Uniforms\nuniform mat4 viewportMatrix;\n\n// Output\nvarying vec2 vUV;\n\nconst vec2 madd = vec2(0.5, 0.5);\n\nvoid main(void) {\t\n\n\tvUV = position * madd + madd;\n\tgl_Position = viewportMatrix * vec4(position, 0.0, 1.0);\n}","oculusDistortionCorrectionPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\nuniform vec2 LensCenter;\nuniform vec2 Scale;\nuniform vec2 ScaleIn;\nuniform vec4 HmdWarpParam;\n\nvec2 HmdWarp(vec2 in01) {\n\n\tvec2 theta = (in01 - LensCenter) * ScaleIn; // Scales to [-1, 1]\n\tfloat rSq = theta.x * theta.x + theta.y * theta.y;\n\tvec2 rvector = theta * (HmdWarpParam.x + HmdWarpParam.y * rSq + HmdWarpParam.z * rSq * rSq + HmdWarpParam.w * rSq * rSq * rSq);\n\treturn LensCenter + Scale * rvector;\n}\n\nvoid main(void)\n{\n\tvec2 tc = HmdWarp(vUV);\n\tif (tc.x <0.0 || tc.x>1.0 || tc.y<0.0 || tc.y>1.0)\n\t\tgl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);\n\telse{\n\t\tgl_FragColor = vec4(texture2D(textureSampler, tc).rgb, 1.0);\n\t}\n}","outlinePixelShader":"precision highp float;\n\nuniform vec3 color;\n\n#ifdef ALPHATEST\nvarying vec2 vUV;\nuniform sampler2D diffuseSampler;\n#endif\n\nvoid main(void) {\n#ifdef ALPHATEST\n\tif (texture2D(diffuseSampler, vUV).a < 0.4)\n\t\tdiscard;\n#endif\n\n\tgl_FragColor = vec4(color, 1.);\n}","outlineVertexShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Attribute\nattribute vec3 position;\nattribute vec3 normal;\n\n#ifdef BONES\nattribute vec4 matricesIndices;\nattribute vec4 matricesWeights;\n#endif\n\n// Uniform\nuniform float offset;\n\n#ifdef INSTANCES\nattribute vec4 world0;\nattribute vec4 world1;\nattribute vec4 world2;\nattribute vec4 world3;\n#else\nuniform mat4 world;\n#endif\n\nuniform mat4 viewProjection;\n#ifdef BONES\nuniform mat4 mBones[BonesPerMesh];\n#endif\n\n#ifdef ALPHATEST\nvarying vec2 vUV;\nuniform mat4 diffuseMatrix;\n#ifdef UV1\nattribute vec2 uv;\n#endif\n#ifdef UV2\nattribute vec2 uv2;\n#endif\n#endif\n\nvoid main(void)\n{\n#ifdef INSTANCES\n\tmat4 finalWorld = mat4(world0, world1, world2, world3);\n#else\n\tmat4 finalWorld = world;\n#endif\n\n\tvec3 offsetPosition = position + normal * offset;\n\n#ifdef BONES\n\tmat4 m0 = mBones[int(matricesIndices.x)] * matricesWeights.x;\n\tmat4 m1 = mBones[int(matricesIndices.y)] * matricesWeights.y;\n\tmat4 m2 = mBones[int(matricesIndices.z)] * matricesWeights.z;\n\tmat4 m3 = mBones[int(matricesIndices.w)] * matricesWeights.w;\n\tfinalWorld = finalWorld * (m0 + m1 + m2 + m3);\n\tgl_Position = viewProjection * finalWorld * vec4(offsetPosition, 1.0);\n#else\n\tgl_Position = viewProjection * finalWorld * vec4(offsetPosition, 1.0);\n#endif\n\n#ifdef ALPHATEST\n#ifdef UV1\n\tvUV = vec2(diffuseMatrix * vec4(uv, 1.0, 0.0));\n#endif\n#ifdef UV2\n\tvUV = vec2(diffuseMatrix * vec4(uv2, 1.0, 0.0));\n#endif\n#endif\n}","particlesPixelShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Samplers\r\nvarying vec2 vUV;\r\nvarying vec4 vColor;\r\nuniform vec4 textureMask;\r\nuniform sampler2D diffuseSampler;\r\n\r\n#ifdef CLIPPLANE\r\nvarying float fClipDistance;\r\n#endif\r\n\r\nvoid main(void) {\r\n#ifdef CLIPPLANE\r\n\tif (fClipDistance > 0.0)\r\n\t\tdiscard;\r\n#endif\r\n\tvec4 baseColor = texture2D(diffuseSampler, vUV);\r\n\r\n\tgl_FragColor = (baseColor * textureMask + (vec4(1., 1., 1., 1.) - textureMask)) * vColor;\r\n}","particlesVertexShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Attributes\r\nattribute vec3 position;\r\nattribute vec4 color;\r\nattribute vec4 options;\r\n\r\n// Uniforms\r\nuniform mat4 view;\r\nuniform mat4 projection;\r\n\r\n// Output\r\nvarying vec2 vUV;\r\nvarying vec4 vColor;\r\n\r\n#ifdef CLIPPLANE\r\nuniform vec4 vClipPlane;\r\nuniform mat4 invView;\r\nvarying float fClipDistance;\r\n#endif\r\n\r\nvoid main(void) {\t\r\n\tvec3 viewPos = (view * vec4(position, 1.0)).xyz; \r\n\tvec3 cornerPos;\r\n\tfloat size = options.y;\r\n\tfloat angle = options.x;\r\n\tvec2 offset = options.zw;\r\n\r\n\tcornerPos = vec3(offset.x - 0.5, offset.y  - 0.5, 0.) * size;\r\n\r\n\t// Rotate\r\n\tvec3 rotatedCorner;\r\n\trotatedCorner.x = cornerPos.x * cos(angle) - cornerPos.y * sin(angle);\r\n\trotatedCorner.y = cornerPos.x * sin(angle) + cornerPos.y * cos(angle);\r\n\trotatedCorner.z = 0.;\r\n\r\n\t// Position\r\n\tviewPos += rotatedCorner;\r\n\tgl_Position = projection * vec4(viewPos, 1.0);   \r\n\t\r\n\tvColor = color;\r\n\tvUV = offset;\r\n\r\n\t// Clip plane\r\n#ifdef CLIPPLANE\r\n\tvec4 worldPos = invView * vec4(viewPos, 1.0);\r\n\tfClipDistance = dot(worldPos, vClipPlane);\r\n#endif\r\n}","passPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\n\nvoid main(void) \n{\n\tgl_FragColor = texture2D(textureSampler, vUV);\n}","postprocessVertexShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Attributes\nattribute vec2 position;\n\n// Output\nvarying vec2 vUV;\n\nconst vec2 madd = vec2(0.5, 0.5);\n\nvoid main(void) {\t\n\n\tvUV = position * madd + madd;\n\tgl_Position = vec4(position, 0.0, 1.0);\n}","refractionPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Samplers\nvarying vec2 vUV;\nuniform sampler2D textureSampler;\nuniform sampler2D refractionSampler;\n\n// Parameters\nuniform vec3 baseColor;\nuniform float depth;\nuniform float colorLevel;\n\nvoid main() {\n\tfloat ref = 1.0 - texture2D(refractionSampler, vUV).r;\n\n\tvec2 uv = vUV - vec2(0.5);\n\tvec2 offset = uv * depth * ref;\n\tvec3 sourceColor = texture2D(textureSampler, vUV - offset).rgb;\n\n\tgl_FragColor = vec4(sourceColor + sourceColor * ref * colorLevel, 1.0);\n}","shadowMapPixelShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\nvec4 pack(float depth)\n{\n\tconst vec4 bitOffset = vec4(255. * 255. * 255., 255. * 255., 255., 1.);\n\tconst vec4 bitMask = vec4(0., 1. / 255., 1. / 255., 1. / 255.);\n\t\n\tvec4 comp = mod(depth * bitOffset * vec4(254.), vec4(255.)) / vec4(254.);\n\tcomp -= comp.xxyz * bitMask;\n\t\n\treturn comp;\n}\n\n// Thanks to http://devmaster.net/\nvec2 packHalf(float depth) \n{ \n\tconst vec2 bitOffset = vec2(1.0 / 255., 0.);\n\tvec2 color = vec2(depth, fract(depth * 255.));\n\n\treturn color - (color.yy * bitOffset);\n}\n\n#ifndef VSM\nvarying vec4 vPosition;\n#endif\n\n#ifdef ALPHATEST\nvarying vec2 vUV;\nuniform sampler2D diffuseSampler;\n#endif\n\nvoid main(void)\n{\n#ifdef ALPHATEST\n\tif (texture2D(diffuseSampler, vUV).a < 0.4)\n\t\tdiscard;\n#endif\n\n#ifdef VSM\n\tfloat moment1 = gl_FragCoord.z / gl_FragCoord.w;\n\tfloat moment2 = moment1 * moment1;\n\tgl_FragColor = vec4(packHalf(moment1), packHalf(moment2));\n#else\n\tgl_FragColor = pack(vPosition.z / vPosition.w);\n#endif\n}","shadowMapVertexShader":"#ifdef GL_ES\nprecision highp float;\n#endif\n\n// Attribute\nattribute vec3 position;\n#ifdef BONES\nattribute vec4 matricesIndices;\nattribute vec4 matricesWeights;\n#endif\n\n// Uniform\n#ifdef INSTANCES\nattribute vec4 world0;\nattribute vec4 world1;\nattribute vec4 world2;\nattribute vec4 world3;\n#else\nuniform mat4 world;\n#endif\n\nuniform mat4 viewProjection;\n#ifdef BONES\nuniform mat4 mBones[BonesPerMesh];\n#endif\n\n#ifndef VSM\nvarying vec4 vPosition;\n#endif\n\n#ifdef ALPHATEST\nvarying vec2 vUV;\nuniform mat4 diffuseMatrix;\n#ifdef UV1\nattribute vec2 uv;\n#endif\n#ifdef UV2\nattribute vec2 uv2;\n#endif\n#endif\n\nvoid main(void)\n{\n#ifdef INSTANCES\n\tmat4 finalWorld = mat4(world0, world1, world2, world3);\n#else\n\tmat4 finalWorld = world;\n#endif\n\n#ifdef BONES\n\tmat4 m0 = mBones[int(matricesIndices.x)] * matricesWeights.x;\n\tmat4 m1 = mBones[int(matricesIndices.y)] * matricesWeights.y;\n\tmat4 m2 = mBones[int(matricesIndices.z)] * matricesWeights.z;\n\tmat4 m3 = mBones[int(matricesIndices.w)] * matricesWeights.w;\n\tfinalWorld = finalWorld * (m0 + m1 + m2 + m3);\n\tgl_Position = viewProjection * finalWorld * vec4(position, 1.0);\n#else\n#ifndef VSM\n\tvPosition = viewProjection * finalWorld * vec4(position, 1.0);\n#endif\n\tgl_Position = viewProjection * finalWorld * vec4(position, 1.0);\n#endif\n\n#ifdef ALPHATEST\n#ifdef UV1\n\tvUV = vec2(diffuseMatrix * vec4(uv, 1.0, 0.0));\n#endif\n#ifdef UV2\n\tvUV = vec2(diffuseMatrix * vec4(uv2, 1.0, 0.0));\n#endif\n#endif\n}","spritesPixelShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\nuniform bool alphaTest;\r\n\r\nvarying vec4 vColor;\r\n\r\n// Samplers\r\nvarying vec2 vUV;\r\nuniform sampler2D diffuseSampler;\r\n\r\n// Fog\r\n#ifdef FOG\r\n\r\n#define FOGMODE_NONE    0.\r\n#define FOGMODE_EXP     1.\r\n#define FOGMODE_EXP2    2.\r\n#define FOGMODE_LINEAR  3.\r\n#define E 2.71828\r\n\r\nuniform vec4 vFogInfos;\r\nuniform vec3 vFogColor;\r\nvarying float fFogDistance;\r\n\r\nfloat CalcFogFactor()\r\n{\r\n\tfloat fogCoeff = 1.0;\r\n\tfloat fogStart = vFogInfos.y;\r\n\tfloat fogEnd = vFogInfos.z;\r\n\tfloat fogDensity = vFogInfos.w;\r\n\r\n\tif (FOGMODE_LINEAR == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = (fogEnd - fFogDistance) / (fogEnd - fogStart);\r\n\t}\r\n\telse if (FOGMODE_EXP == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fogDensity);\r\n\t}\r\n\telse if (FOGMODE_EXP2 == vFogInfos.x)\r\n\t{\r\n\t\tfogCoeff = 1.0 / pow(E, fFogDistance * fFogDistance * fogDensity * fogDensity);\r\n\t}\r\n\r\n\treturn min(1., max(0., fogCoeff));\r\n}\r\n#endif\r\n\r\n\r\nvoid main(void) {\r\n\tvec4 baseColor = texture2D(diffuseSampler, vUV);\r\n\r\n\tif (alphaTest) \r\n\t{\r\n\t\tif (baseColor.a < 0.95)\r\n\t\t\tdiscard;\r\n\t}\r\n\r\n\tbaseColor *= vColor;\r\n\r\n#ifdef FOG\r\n\tfloat fog = CalcFogFactor();\r\n\tbaseColor.rgb = fog * baseColor.rgb + (1.0 - fog) * vFogColor;\r\n#endif\r\n\r\n\tgl_FragColor = baseColor;\r\n}","spritesVertexShader":"#ifdef GL_ES\r\nprecision highp float;\r\n#endif\r\n\r\n// Attributes\r\nattribute vec3 position;\r\nattribute vec4 options;\r\nattribute vec4 cellInfo;\r\nattribute vec4 color;\r\n\r\n// Uniforms\r\nuniform vec2 textureInfos;\r\nuniform mat4 view;\r\nuniform mat4 projection;\r\n\r\n// Output\r\nvarying vec2 vUV;\r\nvarying vec4 vColor;\r\n\r\n#ifdef FOG\r\nvarying float fFogDistance;\r\n#endif\r\n\r\nvoid main(void) {\t\r\n\tvec3 viewPos = (view * vec4(position, 1.0)).xyz; \r\n\tvec3 cornerPos;\r\n\t\r\n\tfloat angle = options.x;\r\n\tfloat size = options.y;\r\n\tvec2 offset = options.zw;\r\n\tvec2 uvScale = textureInfos.xy;\r\n\r\n\tcornerPos = vec3(offset.x - 0.5, offset.y  - 0.5, 0.) * size;\r\n\r\n\t// Rotate\r\n\tvec3 rotatedCorner;\r\n\trotatedCorner.x = cornerPos.x * cos(angle) - cornerPos.y * sin(angle);\r\n\trotatedCorner.y = cornerPos.x * sin(angle) + cornerPos.y * cos(angle);\r\n\trotatedCorner.z = 0.;\r\n\r\n\t// Position\r\n\tviewPos += rotatedCorner;\r\n\tgl_Position = projection * vec4(viewPos, 1.0);   \r\n\r\n\t// Color\r\n\tvColor = color;\r\n\t\r\n\t// Texture\r\n\tvec2 uvOffset = vec2(abs(offset.x - cellInfo.x), 1.0 - abs(offset.y - cellInfo.y));\r\n\r\n\tvUV = (uvOffset + cellInfo.zw) * uvScale;\r\n\r\n\t// Fog\r\n#ifdef FOG\r\n\tfFogDistance = viewPos.z;\r\n#endif\r\n}"};
-var BABYLON;
 (function (BABYLON) {
     var Material = (function () {
         function Material(name, scene, doNotAdd) {
@@ -14319,7 +14276,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var maxSimultaneousLights = 4;
 
@@ -14980,7 +14936,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var MultiMaterial = (function (_super) {
         __extends(MultiMaterial, _super);
@@ -15018,7 +14973,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.multiMaterial.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var SceneLoader = (function () {
         function SceneLoader() {
@@ -15192,7 +15146,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.sceneLoader.js.map
 
-var BABYLON;
 (function (BABYLON) {
     (function (Internals) {
         var loadCubeTexture = function (rootUrl, parsedTexture, scene) {
@@ -16434,7 +16387,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.babylonFileLoader.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var SpriteManager = (function () {
         function SpriteManager(name, imgUrl, capacity, cellSize, scene, epsilon) {
@@ -16608,7 +16560,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.spriteManager.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Sprite = (function () {
         function Sprite(name, manager) {
@@ -16685,7 +16636,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.sprite.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Layer = (function () {
         function Layer(name, imgUrl, scene, isBackground, color) {
@@ -16781,7 +16731,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.layer.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Particle = (function () {
         function Particle() {
@@ -16801,7 +16750,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.particle.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var randomNumber = function (min, max) {
         if (min == max) {
@@ -17203,7 +17151,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.particleSystem.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Animation = (function () {
         function Animation(name, targetProperty, framePerSecond, dataType, loopMode) {
@@ -17523,7 +17470,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.animation.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Animatable = (function () {
         function Animatable(scene, target, fromFrame, toFrame, loopAnimation, speedRatio, onAnimationEnd, animations) {
@@ -17620,7 +17566,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.animatable.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Octree = (function () {
         function Octree(creationFunc, maxBlockCapacity, maxDepth) {
@@ -17725,7 +17670,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.octree.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var OctreeBlock = (function () {
         function OctreeBlock(minPoint, maxPoint, capacity, depth, maxDepth, creationFunc) {
@@ -17867,7 +17811,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.octreeBlock.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Bone = (function () {
         function Bone(name, skeleton, parentBone, matrix) {
@@ -17956,7 +17899,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.bone.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Skeleton = (function () {
         function Skeleton(name, id, scene) {
@@ -18044,7 +17986,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.skeleton.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcess = (function () {
         function PostProcess(name, fragmentUrl, parameters, samplers, ratio, camera, samplingMode, engine, reusable) {
@@ -18167,7 +18108,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.postProcess.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcessManager = (function () {
         function PostProcessManager(scene) {
@@ -18277,7 +18217,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var PassPostProcess = (function (_super) {
         __extends(PassPostProcess, _super);
@@ -18296,7 +18235,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var BlurPostProcess = (function (_super) {
         __extends(BlurPostProcess, _super);
@@ -18324,7 +18262,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var RefractionPostProcess = (function (_super) {
         __extends(RefractionPostProcess, _super);
@@ -18367,7 +18304,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var BlackAndWhitePostProcess = (function (_super) {
         __extends(BlackAndWhitePostProcess, _super);
@@ -18386,7 +18322,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var ConvolutionPostProcess = (function (_super) {
         __extends(ConvolutionPostProcess, _super);
@@ -18418,7 +18353,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var FilterPostProcess = (function (_super) {
         __extends(FilterPostProcess, _super);
@@ -18443,7 +18377,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var FxaaPostProcess = (function (_super) {
         __extends(FxaaPostProcess, _super);
@@ -18465,7 +18398,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.fxaaPostProcess.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var LensFlare = (function () {
         function LensFlare(size, position, color, imgUrl, system) {
@@ -18492,7 +18424,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.lensFlare.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var LensFlareSystem = (function () {
         function LensFlareSystem(name, emitter, scene) {
@@ -18716,7 +18647,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.lensFlareSystem.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var CannonJSPlugin = (function () {
         function CannonJSPlugin() {
@@ -19039,7 +18969,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.cannonJSPlugin.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var OimoJSPlugin = (function () {
         function OimoJSPlugin() {
@@ -19376,7 +19305,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.oimoJSPlugin.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PhysicsEngine = (function () {
         function PhysicsEngine(plugin) {
@@ -19450,7 +19378,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.physicsEngine.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var serializeLight = function (light) {
         var serializationObject = {};
@@ -20238,7 +20165,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.sceneSerializer.js.map
 
-var BABYLON;
 (function (BABYLON) {
     // Unique ID when we import meshes from Babylon to CSG
     var currentCSGMeshId = 0;
@@ -20818,7 +20744,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var OculusDistortionCorrectionPostProcess = (function (_super) {
         __extends(OculusDistortionCorrectionPostProcess, _super);
@@ -20859,7 +20784,6 @@ var BABYLON;
 // Mainly based on these 2 articles :
 // Creating an universal virtual touch joystick working for all Touch models thanks to Hand.JS : http://blogs.msdn.com/b/davrous/archive/2013/02/22/creating-an-universal-virtual-touch-joystick-working-for-all-touch-models-thanks-to-hand-js.aspx
 // & on Seb Lee-Delisle original work: http://seb.ly/2011/04/multi-touch-game-controller-in-javascripthtml5-for-ipad/
-var BABYLON;
 (function (BABYLON) {
     (function (JoystickAxis) {
         JoystickAxis[JoystickAxis["X"] = 0] = "X";
@@ -21147,7 +21071,6 @@ var BABYLON;
     BABYLON.VirtualJoystick = VirtualJoystick;
 })(BABYLON || (BABYLON = {}));
 
-var BABYLON;
 (function (BABYLON) {
     (function (VirtualJoystick) {
         var Collection = (function () {
@@ -21201,7 +21124,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var OculusRiftDevKit2013_Metric = {
         HResolution: 1280,
@@ -21343,7 +21265,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     // We're mainly based on the logic defined into the FreeCamera code
     var VirtualJoysticksCamera = (function (_super) {
@@ -21390,7 +21311,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var ShaderMaterial = (function (_super) {
         __extends(ShaderMaterial, _super);
@@ -21571,7 +21491,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.shaderMaterial.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var VertexData = (function () {
         function VertexData() {
@@ -22536,7 +22455,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var buildCamera = function (that, name) {
         that._leftCamera.isIntermediate = true;
@@ -22646,7 +22564,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var AnaglyphPostProcess = (function (_super) {
         __extends(AnaglyphPostProcess, _super);
@@ -22659,7 +22576,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.anaglyphPostProcess.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Tags = (function () {
         function Tags() {
@@ -22768,7 +22684,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.tags.js.map
 
-var BABYLON;
 (function (BABYLON) {
     (function (Internals) {
         var AndOrNotEvaluator = (function () {
@@ -22875,7 +22790,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.andOrNotEvaluator.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcessRenderPass = (function () {
         function PostProcessRenderPass(scene, name, size, renderList, beforeRender, afterRender) {
@@ -22928,7 +22842,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.postProcessRenderPass.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcessRenderEffect = (function () {
         function PostProcessRenderEffect(engine, name, getPostProcess, singleInstance) {
@@ -23111,7 +23024,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.postProcessRenderEffect.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcessRenderPipeline = (function () {
         function PostProcessRenderPipeline(engine, name) {
@@ -23260,7 +23172,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.postProcessRenderPipeline.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var PostProcessRenderPipelineManager = (function () {
         function PostProcessRenderPipelineManager() {
@@ -23347,7 +23258,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var DisplayPassPostProcess = (function (_super) {
         __extends(DisplayPassPostProcess, _super);
@@ -23360,7 +23270,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.displayPassPostProcess.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var BoundingBoxRenderer = (function () {
         function BoundingBoxRenderer(scene) {
@@ -23443,7 +23352,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Condition = (function () {
         function Condition(actionManager) {
@@ -23568,7 +23476,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.condition.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var Action = (function () {
         function Action(triggerOptions, condition) {
@@ -23650,7 +23557,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.action.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var ActionEvent = (function () {
         function ActionEvent(source, pointerX, pointerY, meshUnderPointer, sourceEvent) {
@@ -23908,7 +23814,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var InterpolateValueAction = (function (_super) {
         __extends(InterpolateValueAction, _super);
@@ -23978,7 +23883,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var SwitchBooleanAction = (function (_super) {
         __extends(SwitchBooleanAction, _super);
@@ -24175,7 +24079,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Geometry = (function () {
         function Geometry(id, scene, vertexData, updatable, mesh) {
@@ -24828,7 +24731,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var GroundMesh = (function (_super) {
         __extends(GroundMesh, _super);
@@ -24877,7 +24779,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var Gamepads = (function () {
         function Gamepads(ongamedpadconnected) {
@@ -25456,7 +25357,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     // We're mainly based on the logic defined into the FreeCamera code
     var GamepadCamera = (function (_super) {
@@ -25517,7 +25417,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var LinesMesh = (function (_super) {
         __extends(LinesMesh, _super);
@@ -25596,7 +25495,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.linesMesh.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var OutlineRenderer = (function () {
         function OutlineRenderer(scene) {
@@ -25710,7 +25608,6 @@ var BABYLON;
 })(BABYLON || (BABYLON = {}));
 //# sourceMappingURL=babylon.outlineRenderer.js.map
 
-var BABYLON;
 (function (BABYLON) {
     var MeshAssetTask = (function () {
         function MeshAssetTask(name, meshesNames, rootUrl, sceneFilename) {
@@ -25983,7 +25880,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var VRDeviceOrientationCamera = (function (_super) {
         __extends(VRDeviceOrientationCamera, _super);
@@ -26021,7 +25917,6 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var BABYLON;
 (function (BABYLON) {
     var WebVRCamera = (function (_super) {
         __extends(WebVRCamera, _super);
